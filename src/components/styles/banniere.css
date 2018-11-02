@@ -1,0 +1,15 @@
+.mybanniere{
+  margin-top:10px;
+  margin-bottom:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-border-radius:30px 0;
+  -webkit-border-radius:30px 0;
+  border-radius:30px 0;
+}
+.textbaniere{
+  color:green;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
