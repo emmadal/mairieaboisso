@@ -34,8 +34,9 @@ export const CarouselPage = () => {
             </CarouselItem>
             <CarouselItem itemId="3">
               <View>
-                <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg" alt="Third slide" />
-                <Mask overlay="black-slight"></Mask>
+                <img className="d-block w-100" src={require('../components/img/slide3.png')} 
+                  alt="Third slide" />
+                  <Mask overlay="black-slight"></Mask>
               </View>
               <CarouselCaption>
                 <h3 className="h3-responsive">Slight mask</h3>
@@ -44,7 +45,8 @@ export const CarouselPage = () => {
             </CarouselItem>
             <CarouselItem itemId="4">
               <View>
-                <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20%28143%29.jpg" alt="Mattonit's item" />
+              <img className="d-block w-100" src={require('../components/img/slide4.png')}
+                alt="Mattonit's item" />
                 <Mask overlay="black-light"></Mask>
               </View>
               <CarouselCaption>
