@@ -4,7 +4,7 @@ import  {Carousel, CarouselCaption, CarouselInner, CarouselItem, View, Mask, Con
 export const CarouselPage = () => {
   return(
       <Container>
-        <h4 className="mt-4 mb-2"></h4>
+        <h4 className="mt-4 mb-2"> </h4>
         <Carousel
           activeItem={1}
           length={4}
@@ -14,18 +14,18 @@ export const CarouselPage = () => {
           <CarouselInner>
             <CarouselItem itemId="1">
               <View>
-                <img className="d-block w-100" src={require('../components/img/slide.png')} alt="First slide" />
-                <Mask overlay="black-light"></Mask>
+                <img className="d-block w-100 img-fluid" src={require('../components/img/slide.png')} alt="First slide" />
+                <Mask overlay=""></Mask>
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive font-weight-bold">BIENVENUE A ABOISSO</h3>
+                <h3 className="h3-responsive font-weight-bold">AKWABA ABOISSO</h3>
                 <p>Terre d'esperance</p>
               </CarouselCaption>
             </CarouselItem>
             <CarouselItem itemId="2">
               <View>
-                <img className="d-block w-100" src={require('../components/img/slide2.png')} alt="Second slide" />
-                <Mask overlay="black-strong"></Mask>
+                <img className="d-block w-100 img-fluid" src={require('../components/img/slide2.png')} alt="Second slide" />
+                <Mask overlay=""></Mask>
               </View>
               <CarouselCaption>
                 <h3 className="h3-responsive"> </h3>
@@ -34,9 +34,9 @@ export const CarouselPage = () => {
             </CarouselItem>
             <CarouselItem itemId="3">
               <View>
-                <img className="d-block w-100" src={require('../components/img/slide3.png')} 
+                <img className="d-block w-100 img-fluid" src={require('../components/img/slide3.png')}
                   alt="Third slide" />
-                  <Mask overlay="black-slight"></Mask>
+                  <Mask overlay=""></Mask>
               </View>
               <CarouselCaption>
                 <h3 className="h3-responsive">Slight mask</h3>
@@ -45,9 +45,9 @@ export const CarouselPage = () => {
             </CarouselItem>
             <CarouselItem itemId="4">
               <View>
-              <img className="d-block w-100" src={require('../components/img/slide4.png')}
+              <img className="d-block w-100 img-fluid" src={require('../components/img/slide4.png')}
                 alt="Mattonit's item" />
-                <Mask overlay="black-light"></Mask>
+                <Mask overlay=""></Mask>
               </View>
               <CarouselCaption>
                 <h3 className="h3-responsive">Sopot Beach</h3>

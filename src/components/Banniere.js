@@ -13,7 +13,7 @@ export default function Banniere() {
             </div>
             <div className="col-md-8">
               <h3 className="h3-responsive textbaniere">MAIRE DE LA VILLE D'ABOISSO</h3>
-              <h5 className="h5-responsive textbaniere">Le vrai changement avec Jeremie Alfred 
+              <h5 className="h5-responsive textbaniere">Le vrai changement avec Jeremie Alfred
               N'Gouan
               </h5>
             </div>

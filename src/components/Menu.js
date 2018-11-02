@@ -5,8 +5,8 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
+  //NavItem,
+  //NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -30,15 +30,15 @@ export default class Menu extends React.Component {
   render() {
     return (
       <div className="container">
-        <Navbar color="success" light expand="md" className="bordermenu">
+        <Navbar color="" light expand="md" className="bordermenu">
           <NavbarBrand href="/" className="text-white font-weight-bold">ACCEUIL</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar >
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              {/*<NavItem>
               <NavLink href="/components/" className="text-white font-weight-bold">COMPONENTS
               </NavLink>
-              </NavItem>
+              </NavItem>*/}
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret className="text-white font-weight-bold">
                   LA MAIRIE
