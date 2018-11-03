@@ -6,7 +6,7 @@ export default function Commune() {
   return(
     <div className="">
         <div className="container">
-          <h1 className="mt-3 mb-2 text-green h1-responsive mytitle"> LA COMMUNE </h1>
+          <h1 className="mt-5 mb-2 text-green h1-responsive mytitle"> LA COMMUNE </h1>
           <div className="row mt-3">
             <div className="col-md text-center">
               <View zoom>

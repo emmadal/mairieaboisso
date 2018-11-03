@@ -7,7 +7,7 @@ export default function Infos() {
   return(
     <div className="">
         <div className="container">
-          <h1 className="mt-3 mb-2 text-green h1-responsive mytitle"> A LA UNE </h1>
+          <h1 className="mt-5 mb-2 text-green h1-responsive mytitle"> A LA UNE </h1>
           <div className="row ">
             {
               News.map((news,key) =>(

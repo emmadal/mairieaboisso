@@ -5,6 +5,9 @@ import Banniere from './components/Banniere';
 import Infos from './components/Infos';
 import Director from './components/Director';
 import Commune from './components/Commune';
+import Tourisme from './components/Tourisme';
+import Map from './components/Map';
+import FooterPage from './components/FooterPage';
 
 function App() {
   return(
@@ -15,6 +18,9 @@ function App() {
       <CarouselPage />
       <Infos />
       <Commune />
+      <Tourisme />
+      <Map />
+      <FooterPage />
     </div>
   )
 }
