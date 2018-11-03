@@ -10,8 +10,8 @@ export default function Infos() {
           <h1 className="mt-3 mb-2 text-green h1-responsive mytitle"> A LA UNE </h1>
           <div className="row ">
             {
-              News.map((news) =>(
-                <div className="col-md mt-3 text-justify">
+              News.map((news,key) =>(
+                <div className="col-md mt-3 text-justify" key={key}>
                   <Card>
                     <CardImage className="img-fluid" src={news.img} waves />
                     <CardBody>
@@ -24,7 +24,7 @@ export default function Infos() {
               ))
             }
           </div>
-          </div>
+        </div>
     </div>
   )
 }
