@@ -1,46 +1,54 @@
-import React, {useState, useEffect} from 'react'
-import './styles/director.css'
-import {Modal, ModalHeader, ModalBody, ModalFooter, Button} from 'mdbreact'
+import React from 'react';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
-export default function Direcctor() {
-  const [modal, SetModal] = useState(false)
-
-  function toogle() {
-    SetModal(true)
+class Director extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      modal: false
+    };
+    this.toggle = this.toggle.bind(this);
   }
 
-  useEffect(() =>{
-    //toogle()
-    return () => {
-      SetModal(false)
-    }
-  })
+  toggle() {
+    this.setState({
+      modal: !this.state.modal
+    });
+  }
+  componentDidMount(){
+    this.toggle()
+  }
 
-  return(
-    <div className="">
-      <Modal isOpen={modal} toggle={toogle}>
-        <ModalHeader toggle={toogle}>
-          <p className="font-weight-bold">Le mot du Maire</p>
-        </ModalHeader>
-        <ModalBody>
-          <div className="container">
-            <div className="row">
-              <div className="col-md">
+  render() {
+    return (
+      <div>
+
+        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}
+          size='lg'>
+          <ModalHeader toggle={this.toggle}>
+            <p className="font-weight-bold text-center">Le mot du Maire</p>
+          </ModalHeader>
+          <ModalBody>
+            <div className="container">
+              <div className="row">
+                <div className="col-md">
+                  <p className="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                  </p>
+                </div>
+                <div className="col-md">
+                  <img src={require('../components/img/maireaboisso.png')} alt="maire"  className="float-right img-fluid img-thumbnail"/>
+                </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md">
-                <p className="text-justify">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                </p>
-              </div>
-            </div>
-          </div>
-        </ModalBody>
-        <ModalFooter>
-            <Button color="green" onClick={() => {SetModal(false)} }>Quitter</Button>
-        </ModalFooter>
-      </Modal>
-    </div>
-  )
+          </ModalBody>
+          <ModalFooter>
+            <Button color="green" onClick={this.toggle}>Quitter</Button>
+          </ModalFooter>
+        </Modal>
+      </div>
+    );
+  }
 }
+
+export default Director;

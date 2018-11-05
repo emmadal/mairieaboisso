@@ -17,7 +17,7 @@ export default function Tourisme() {
               <iframe
                 title="palais"
                 src="https://www.youtube.com/embed/F5OdjskR6B8?ecver=2"
-                width="300" height="225" frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                width="300" height="225" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen>
               </iframe>
               <h5 className="h5-responsive mt-2 font-weight-bold float-left">Le palais de la
                 Monin Bia à Ayamé
@@ -27,7 +27,7 @@ export default function Tourisme() {
               <iframe
                 title="auberge"
                 src="https://www.youtube.com/embed/BiJ6BTtSH7M?ecver=2"
-                width="300" height="225" frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                width="300" height="225" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen>
               </iframe>
               <h5 className="h5-responsive mt-2 float-left font-weight-bold float-left">L'
                 Auberge Akwaba à Krinjabo
@@ -37,7 +37,7 @@ export default function Tourisme() {
               <iframe
               title="bia"
                 src="https://www.youtube.com/embed/6JSdNSsABG4?ecver=2"
-                width="300" height="225" frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                width="300" height="225" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen>
               </iframe>
               <h5 className="h5-responsive mt-2 float-left font-weight-bold">Vue du fleuve BIA
               </h5>
