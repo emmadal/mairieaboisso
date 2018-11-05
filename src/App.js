@@ -8,6 +8,8 @@ import Amenagements from './components/pages/Amenagements'
 import Quartiers from './components/pages/Quartiers'
 import Royaume from './components/pages/Royaume'
 import SitesTourisme from './components/pages/SitesTourisme'
+import ErrorPage404 from './components/pages/ErrorPage404'
+import FooterPage from './components/FooterPage'
 import Banniere from './components/Banniere'
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
         <Route path="/au-coeur-des-quartiers" component={Quartiers} />
         <Route path="/royaume-sanwi" component={Royaume} />
         <Route path="/sites-touristiques" component={SitesTourisme} />
+        <Route component={ErrorPage404}/>
       </Switch>
+      <FooterPage />
       </div>
     </BrowserRouter>
   )

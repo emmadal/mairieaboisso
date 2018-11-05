@@ -5,13 +5,10 @@ import Director from '../Director';
 import Commune from '../Commune';
 import Tourisme from '../Tourisme';
 import Map from '../Map';
-import FooterPage from '../FooterPage';
 
-
-function Home() {
+export default function Home() {
 
   useEffect(() => {
-
   })
   
   return(
@@ -22,8 +19,6 @@ function Home() {
       <Commune />
       <Tourisme />
       <Map />
-      <FooterPage />
     </div>
   )
 }
-export default Home;
