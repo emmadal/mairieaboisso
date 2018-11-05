@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles/banniere.css'
+import Menu from './Menu'
 
 export default function Banniere() {
   return(
@@ -18,7 +19,8 @@ export default function Banniere() {
               </h5>
             </div>
           </div>
-          </div>
+        </div>
+        <Menu />
     </div>
   )
 }
