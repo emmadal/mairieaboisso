@@ -1,5 +1,6 @@
 import React from 'react';
 import  {Carousel, CarouselCaption, CarouselInner, CarouselItem, View, Mask, Container } from 'mdbreact';
+import './styles/carousel.css'
 
 export const CarouselPage = () => {
   return(
@@ -18,8 +19,8 @@ export const CarouselPage = () => {
                 <Mask overlay=""></Mask>
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive font-weight-bold">AKWABA ABOISSO</h3>
-                <p>Terre d'esperance</p>
+                <h1 className="h1-responsive font-weight-bold mb-5">AKWABA ABOISSO</h1>
+                <h3 className="h3-responsive"> </h3>
               </CarouselCaption>
             </CarouselItem>
             <CarouselItem itemId="2">

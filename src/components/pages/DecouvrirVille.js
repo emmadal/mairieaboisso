@@ -1,10 +1,12 @@
 import React from 'react'
 import {description} from '../containers/Description'
 import '../styles/historiqueville.css'
+//import HeaderPage from '../../components/HeaderPage'
 
 export default function DecouvrirVille() {
   return(
     <div>
+      
       <div className="container">
         <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Decouvrir Aboisso </h1>
         <div className="row">
