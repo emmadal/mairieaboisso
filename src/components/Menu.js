@@ -42,13 +42,13 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
-                      <NavLink href="/etat-civil" className="text-success font-weight-bold">Etat civil</NavLink>
-                    </DropdownItem>
-                    <DropdownItem className="text-success">
                       <NavLink href="/historique-aboisso" className="text-success font-weight-bold">Historique de la ville</NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
                       <NavLink href="/decouvrir-aboisso" className="text-success font-weight-bold">Decouvrir la ville</NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink href="/etat-civil" className="text-success font-weight-bold">Etat civil</NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
                       <NavLink href="/patrimoine-aboisso" className="text-success font-weight-bold">Patrimoine de la ville</NavLink>
