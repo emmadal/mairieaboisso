@@ -42,6 +42,9 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
+                      <NavLink href="/etat-civil" className="text-success font-weight-bold">Etat civil</NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
                       <NavLink href="/historique-aboisso" className="text-success font-weight-bold">Historique de la ville</NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
@@ -82,7 +85,7 @@ export default class Menu extends React.Component {
             </Collapse>
           </Navbar>
         </div>
-        
+
       </Route>
     );
   }

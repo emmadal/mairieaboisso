@@ -9,6 +9,7 @@ import Quartiers from './components/pages/Quartiers'
 import Royaume from './components/pages/Royaume'
 import SitesTourisme from './components/pages/SitesTourisme'
 import ErrorPage404 from './components/pages/ErrorPage404'
+import EtatCivil from './components/pages/EtatCivil'
 import FooterPage from './components/FooterPage'
 import Banniere from './components/Banniere'
 
@@ -17,9 +18,10 @@ function App() {
     <BrowserRouter>
       <div>
         <Banniere />
-        <Switch>        
+        <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/historique-aboisso" component={HistoriqueVille} />
+        <Route path="/etat-civil" component={EtatCivil} />
         <Route path="/decouvrir-aboisso" component={DecouvrirVille} />
         <Route path="/patrimoine-aboisso" component={PatrimoineVille} />
         <Route path="/amenagements-urbains" component={Amenagements} />
