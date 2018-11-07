@@ -1,9 +1,11 @@
 import React from 'react'
-
+import {Container, Row, Col} from 'mdbreact'
 export default function Amenagements() {
   return(
     <div>
-      <h1>Amenagements urbains</h1>
+    <Container>
+      <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Amenagements urbains</h1>
+    </Container>
     </div>
   )
 }
