@@ -2,6 +2,7 @@ import React from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import {royaume} from '../containers/royaume'
+import {Rois} from '../Rois'
 
 export default class Royaume extends React.Component {
   constructor(props) {
@@ -66,6 +67,11 @@ export default class Royaume extends React.Component {
                 <TabPane tabId="1">
                   <Row>
                     <Col sm="12">
+                      <img src={require('../img/chefferie.png')} alt="mariage" className="img-fluid mt-3" />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col sm="12">
                       <p className=" text-justify descriptn mt-2">{royaume[1].textchefferie}</p>
                       <p className=" text-justify descriptn mt-2">Il y a deux (2) systèmes de pouvoir :</p>
                       <ul>
@@ -80,16 +86,23 @@ export default class Royaume extends React.Component {
                 </TabPane>
                 <TabPane tabId="2">
                   <Row>
-                    <Col sm="12">
-                      <p className=" text-justify descriptn mt-2">{royaume[3].textdot}</p>
+                    <Col sm="8">
+                      <p className=" text-justify descriptn mt-3">{royaume[3].textdot}</p>
+                    </Col>
+                    <Col sm="4 text-center">
+                      <img src={require('../img/dot.png')} alt="mariage" className="img-fluid mt-5 text-center" />
                     </Col>
                   </Row>
                 </TabPane>
                 <TabPane tabId="3">
                   <Row>
-                    <Col sm="12">
-                      <p className=" text-justify descriptn mt-2">{royaume[4].textmariage}</p>
+                  <Col sm="8 text-left">
+                    <p className=" text-justify float-left descriptn mt-5">{royaume[4].textmariage}</p>
+                  </Col>
+                    <Col sm="4">
+                      <img src={require('../img/mariage.png')} alt="mariage" className="img-fluid mt-3" />
                     </Col>
+
                   </Row>
                 </TabPane>
                 <TabPane tabId="4">
@@ -102,6 +115,16 @@ export default class Royaume extends React.Component {
                   </Row>
                 </TabPane>
               </TabContent>
+            </div>
+          </div>
+          <h4 className="h4-responsive mytitle mt-3">Quelques ROIS du SANWI</h4>
+          <div className="row">
+            <div className="col-md text-center">
+            </div>
+            <div className="col-md mt-3">
+              <Rois />
+            </div>
+            <div className="col-md text-center">
             </div>
           </div>
         </div>

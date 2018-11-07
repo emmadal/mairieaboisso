@@ -1,5 +1,5 @@
 import React from 'react';
-import  {Carousel, CarouselCaption, CarouselInner, CarouselItem, View, Mask, Container } from 'mdbreact';
+import  {Carousel, CarouselCaption, CarouselInner, CarouselItem, View, Container } from 'mdbreact';
 import './styles/carousel.css'
 
 export const CarouselPage = () => {
@@ -16,7 +16,6 @@ export const CarouselPage = () => {
             <CarouselItem itemId="1">
               <View>
                 <img className="d-block w-100 img-fluid" src={require('../components/img/slide.png')} alt="First slide" />
-                <Mask overlay=""></Mask>
               </View>
               <CarouselCaption>
                 <h1 className="h1-responsive font-weight-bold mb-5">AKWABA ABOISSO</h1>
@@ -25,8 +24,7 @@ export const CarouselPage = () => {
             </CarouselItem>
             <CarouselItem itemId="2">
               <View>
-                <img className="d-block w-100 img-fluid" src={require('../components/img/slide2.png')} alt="Second slide" />
-                <Mask overlay=""></Mask>
+                <img className="d-block w-100 img-fluid" src={require('../components/img/slide44.png')} alt="Second slide" />
               </View>
               <CarouselCaption>
                 <h3 className="h3-responsive"> </h3>
@@ -35,24 +33,21 @@ export const CarouselPage = () => {
             </CarouselItem>
             <CarouselItem itemId="3">
               <View>
-                <img className="d-block w-100 img-fluid" src={require('../components/img/slide3.png')}
-                  alt="Third slide" />
-                  <Mask overlay=""></Mask>
+                <img className="d-block w-100 img-fluid"
+                  src={require('../components/img/slide34.png')}
+                  alt="Third slide"
+                />
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
+                <h1 className="h1-responsive font-weight-bold mb-5">AKWABA ABOISSO</h1>
               </CarouselCaption>
             </CarouselItem>
             <CarouselItem itemId="4">
               <View>
-              <img className="d-block w-100 img-fluid" src={require('../components/img/slide4.png')}
+              <img className="d-block w-100 img-fluid" src={require('../components/img/slide2.png')}
                 alt="Mattonit's item" />
-                <Mask overlay=""></Mask>
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive">Sopot Beach</h3>
-                <p>Taken june 21th by @mattonit</p>
               </CarouselCaption>
             </CarouselItem>
           </CarouselInner>

@@ -21,7 +21,7 @@ export const royaume = [
   },
   {
     id:5,
-    textdivorce:"En cas de divorce, il est remboursé au mari la somme de 60 F et une bouteille de gin en guise de remerciement. Comme dans bon nombre de société, le divorce est consécutif l’adultère et le manque de respect à la belle-famille."
+    textdivorce:"En cas de divorce, il est remboursé au mari la somme de 60 F et une bouteille de gin en guise de remerciement. Comme dans bon nombre de société, le divorce est consécutif à l’adultère et le manque de respect à la belle-famille."
   },
   {
     id:6,

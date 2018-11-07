@@ -9,7 +9,7 @@ export default function Tourisme() {
           <h1 className="mt-5 mb-2 text-green h1-responsive mytitle"> SITES TOURISTIQUES </h1>
           <div className="row">
             <div className="col-md-12">
-              <p className="text-justify ">{description[0].text}</p>
+              <p className="text-justify text-justify descriptn">{description[0].text}</p>
             </div>
           </div>
           <div className="row mt-3">

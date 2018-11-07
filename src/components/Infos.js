@@ -11,12 +11,12 @@ export default function Infos() {
           <div className="row ">
             {
               News.map((news,key) =>(
-                <div className="col-md mt-3 text-justify" key={key}>
+                <div className="col-md mt-3 " key={key}>
                   <Card>
                     <CardImage className="img-fluid" src={news.img} waves />
                     <CardBody>
                       <CardTitle>{news.title}</CardTitle>
-                      <CardText>{news.text}</CardText>
+                      <CardText className="">{news.text}</CardText>
                       <Button href="#" color="green">Lire plus</Button>
                     </CardBody>
                   </Card>
