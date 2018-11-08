@@ -40,7 +40,7 @@ export default function Commune() {
                 />
               </View>
               <h4 className="h4-responsive mt-2 float-left font-weight-bold">
-              <Link to="/historique-aboisso" className="black-text">
+              <Link to="/decouvrir-aboisso" className="black-text">
                 Le systeme educatif à Aboisso
               </Link>
               </h4>
@@ -54,7 +54,7 @@ export default function Commune() {
                 />
               </View>
               <h4 className="h4-responsive mt-2 float-left font-weight-bold">
-                <Link to="/historique-aboisso" className="black-text">
+                <Link to="/decouvrir-aboisso" className="black-text">
                   Nos valeurs
                 </Link>
               </h4>
@@ -66,7 +66,7 @@ export default function Commune() {
                 />
               </View>
               <h4 className="h4-responsive mt-2 float-left font-weight-bold">
-                <Link to="/historique-aboisso" className="black-text">
+                <Link to="/decouvrir-aboisso" className="black-text">
                   La ville economique de la ville
                 </Link>
               </h4>
@@ -78,7 +78,7 @@ export default function Commune() {
                 />
               </View>
               <h4 className="h4-responsive mt-2 float-left font-weight-bold">
-                <Link to="/historique-aboisso" className="black-text">
+                <Link to="/decouvrir-aboisso" className="black-text">
                   La securite à Aboisso
                 </Link>
               </h4>

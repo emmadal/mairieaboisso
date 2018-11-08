@@ -50,9 +50,6 @@ export default class Menu extends React.Component {
                     <DropdownItem className="text-success">
                       <NavLink href="/etat-civil" className="text-success font-weight-bold">Etat civil</NavLink>
                     </DropdownItem>
-                    <DropdownItem className="text-success">
-                      <NavLink href="/patrimoine-aboisso" className="text-success font-weight-bold">Patrimoine de la ville</NavLink>
-                    </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <UncontrolledDropdown nav inNavbar>
