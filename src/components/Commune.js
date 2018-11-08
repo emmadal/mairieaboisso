@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/commune.css'
 import {View} from 'mdbreact'
+import {Link} from 'react-router-dom'
 
 export default function Commune() {
   return(
@@ -14,8 +15,10 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold"> Historique de la
-                ville
+              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+                <Link to="/historique-aboisso" className="black-text">
+                  Historique de la ville
+                </Link>
               </h4>
             </div>
             <div className="col-md text-center">
@@ -24,7 +27,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">Notre patrimoine</h4>
+              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <Link to="/decouvrir-aboisso" className="black-text">
+                Decouvrir la ville
+              </Link>
+              </h4>
             </div>
             <div className="col-md text-center">
               <View zoom>
@@ -32,7 +39,10 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">Le système éducatif à Aboisso
+              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <Link to="/historique-aboisso" className="black-text">
+                Le systeme educatif à Aboisso
+              </Link>
               </h4>
             </div>
           </div>
@@ -43,7 +53,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">Nos valeurs</h4>
+              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+                <Link to="/historique-aboisso" className="black-text">
+                  Nos valeurs
+                </Link>
+              </h4>
             </div>
             <div className="col-md text-center">
               <View zoom>
@@ -51,7 +65,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">la vie économique de la ville</h4>
+              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+                <Link to="/historique-aboisso" className="black-text">
+                  La ville economique de la ville
+                </Link>
+              </h4>
             </div>
             <div className="col-md text-center">
               <View zoom>
@@ -59,7 +77,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">La sécurité à Aboisso</h4>
+              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+                <Link to="/historique-aboisso" className="black-text">
+                  La securite à Aboisso
+                </Link>
+              </h4>
             </div>
           </div>
         </div>
