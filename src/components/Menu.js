@@ -42,16 +42,40 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
+                      <NavLink href="/mot-maire" className="text-success font-weight-bold">Le mot du Maire</NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink href="/services" className="text-success font-weight-bold">Services et Organigrame de la Mairie</NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink href="/conseil-municipal" className="text-success font-weight-bold">Le Conseil Municipal</NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink href="/etat-civil" className="text-success font-weight-bold">L' Etat civil</NavLink>
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+
+
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle nav caret className="text-white font-weight-bold">
+                    LA COMMUNE
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem className="text-success">
                       <NavLink href="/historique-aboisso" className="text-success font-weight-bold">Historique de la ville</NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
                       <NavLink href="/decouvrir-aboisso" className="text-success font-weight-bold">Decouvrir la ville</NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink href="/etat-civil" className="text-success font-weight-bold">Etat civil</NavLink>
+                      <NavLink href="/adresses-utiles" className="text-success font-weight-bold">Les adresses utiles</NavLink>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
+
+
+
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret className="text-white font-weight-bold">
                     PROJETS URBAINS
