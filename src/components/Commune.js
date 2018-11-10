@@ -67,7 +67,7 @@ export default function Commune() {
               </View>
               <h4 className="h4-responsive mt-2 float-left font-weight-bold">
                 <Link to="/decouvrir-aboisso" className="black-text">
-                  La ville economique de la ville
+                  La vie economique de la ville
                 </Link>
               </h4>
             </div>
