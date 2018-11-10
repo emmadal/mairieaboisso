@@ -54,7 +54,7 @@ export default function Commune() {
                 />
               </View>
               <h4 className="h4-responsive mt-2 float-left font-weight-bold">
-                <Link to="/decouvrir-aboisso" className="black-text">
+                <Link to="/royaume-sanwi" className="black-text">
                   Nos valeurs
                 </Link>
               </h4>

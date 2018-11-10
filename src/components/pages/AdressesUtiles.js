@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'mdbreact'
-import {adresses, hopitaux} from '../containers/Adresses'
+import {adresses, hopitaux, urgences} from '../containers/Adresses'
 
 export default function AdressesUtiles() {
   return(
@@ -16,7 +16,7 @@ export default function AdressesUtiles() {
             {
               adresses.map((text, key) => (
                 <span key={key}>
-                  <p className="descriptn mt-2">{text.name}, (+225){text.contact}, {text.dr}</p>
+                  <p className="descriptn mt-2">{text.name} : (+225){text.contact}, {text.dr}</p>
                 </span>
               ))
             }
@@ -27,6 +27,13 @@ export default function AdressesUtiles() {
             <h3 className="h3-responsive mytitle font-weight-bold text-center mb-3">
               Numeros d'urgences
             </h3>
+            {
+              urgences.map((text, key) => (
+                <span key={key}>
+                  <p className="descriptn mt-2">{text.name} : {text.contact} </p>
+                </span>
+              ))
+            }
 
           </Col>
         </Row>
@@ -38,14 +45,12 @@ export default function AdressesUtiles() {
             {
               hopitaux.map((text, key) => (
                 <span key={key}>
-                  <p className="descriptn mt-2">{text.name}, (+225){text.contact}, {text.dr}</p>
+                  <p className="descriptn mt-2">{text.name} : (+225){text.contact}, {text.dr}</p>
                 </span>
               ))
             }
-
           </Col>
         </Row>
-
       </Container>
     </div>
     </div>

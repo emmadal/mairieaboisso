@@ -3,7 +3,7 @@ import {description} from '../containers/Description'
 import '../styles/historiqueville.css'
 import {Container, Row, Col, Card, CardBody, CardTitle, CardText, CardHeader}
  from 'mdbreact'
- import {culturels} from '../containers/culturels'
+ import {culturels, economies, securites, educations} from '../containers/culturels'
  import Patrimoine from '../Patrimoine'
 
 export default function DecouvrirVille() {
@@ -28,7 +28,7 @@ export default function DecouvrirVille() {
         </div>
       </div>
       <Container>
-        <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Activites Culturelles</h1>
+        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Activites Culturelles</h3>
         <Row>
           {
             culturels.map((data, key) =>(
@@ -49,6 +49,44 @@ export default function DecouvrirVille() {
               </Col>
             ))
           }
+        </Row>
+      </Container>
+
+      <Container>
+        <h3 className="mt-5 mb-3 text-green h3-responsive mytitle"> Activités économiques</h3>
+        <Row>
+            {
+              economies.map((doc) => (
+                <Col sm="12">
+                  <h5 className="mytitle h5-responsive">{doc.title}</h5>
+                  <p className="text-justify descriptn">{doc.text}</p>
+                </Col>
+              ))
+            }
+        </Row>
+      </Container>
+
+      <Container>
+        <h3 className="mt-3 mb-3 text-green h3-responsive mytitle"> Securite et systeme educatif</h3>
+        <Row>
+            {
+              securites.map((doc) => (
+                <Col sm="12">
+                  <h5 className="mytitle h5-responsive">Plan securitaire</h5>
+                  <p className="text-justify descriptn">{doc.text}</p>
+                </Col>
+              ))
+            }
+        </Row>
+        <Row>
+            {
+              educations.map((doc) => (
+                <Col sm="12">
+                  <h5 className="mytitle h5-responsive">Plan educatif</h5>
+                  <p className="text-justify descriptn">{doc.text}</p>
+                </Col>
+              ))
+            }
         </Row>
       </Container>
     </div>

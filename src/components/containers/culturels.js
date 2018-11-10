@@ -18,3 +18,43 @@ export const culturels = [
     text:"Le Sanwi  festival qui se veut le creuset de la valorisation des rythmes et cultures du peuple Agni .l'objectif que poursuit Sanwi festival, c'est de promouvoir les us et coutumes ,tout en permettant aux festivaliers de decouvrir les riches potentialités touristiques de la region du Sanwi."
   }
 ]
+
+export const economies = [
+  {
+    id:1,
+    title:"Banques",
+    text:"La ville d’Aboisso regorge la quasi-totalité des établissements bancaires du pays : SGBCI, SIB, BIAO, BANQUE ATLANTIC, BNI, ECOBANK, BICICI, COOPEC, CECP et plusieurs structures de microfinance: CMEC, MUCREFAB…."
+  },
+  {
+    id:2,
+    title:"Commerce",
+    text:"Présence de toutes les activités commerciales avec un marché central et deux marchés périphériques et de nombreux supermarchés. Traversée par le fleuve ‘’La Bia’’, cette ville pratique la pêche artisanale (machoirons, carpes et écrevisses) qu’elle commercialise sur le marché local."
+  },
+  {
+    id:3,
+    title:"Agriculture",
+    text:"La Commune d’Aboisso est située dans une zone dont la pluviométrie est assez élévée. Cela favorise l’exploitation des cultures de rente (hévéa, palmier à huile, cacao…). A ce titre, la ville d’Aboisso est située dans un département qui regorge plusieurs unités agro-industrielles. On peut citer entre autres les industries de transformation de palmier à huile (Palmci, Coopalem, Dekel oil) et d’hévéas (SCC, SAPH) ainsi que quelques unités villageoises."
+  },
+  {
+    id:4,
+    title:"Infrastructures",
+    text:"Aboisso possède un centre de formation des agents de santé (INFAS), un CAFOP, des centres de formation de football, un village d'enfants S.O.S, une station de visite auto (SICTA), un Lycée Moderne, un collège moderne, un CHR et plusieurs autres établissements scolaires, sanitaires publics et privés."
+  },
+  {
+    id:5,
+    title:"Tourisme",
+    text:"La ville d’Aboisso compte plusieurs réceptifs hôteliers de moyen standing (Hôtel le Rocher, Hôtel les Béatitudes, Hôtel les Cascatelles, Sanwi Hôtel …) et regorge de nombreux sites touristiques."
+  },
+]
+
+export const securites = [
+  {
+    id:1,
+    text:"Le systeme securitaire de la commune d aboisso est composé: d'une Brigarde de Gendarmerie, un Commissariat de Police, un Centre de Secours de Sapeurs Pompiers militaires, Une Prefecture de Police"
+  }
+]
+export const educations = [
+  {
+
+  }
+]

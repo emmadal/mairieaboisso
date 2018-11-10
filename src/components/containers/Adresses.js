@@ -114,6 +114,7 @@ export const adresses = [
     contact:'47 12 94 71'
   },
 ]
+
 export const hopitaux = [
   {
     id:1,
@@ -136,4 +137,38 @@ export const hopitaux = [
     name:"Clinique sainte famille d'Aboisso",
     contact:'+225 21 30 45 05'
   }
+]
+
+
+export const urgences = [
+  {
+    id:1,
+    name:"Prefecture de Police d’Aboisso",
+    contact:"07 60 18 43 "
+  },
+  {
+    id:2,
+    name:"Direction Regionale des Douanes d'Aboisso",
+    contact:"20 25 52 31"
+  },
+  {
+    id:3,
+    name:"SAMU",
+    contact:"22 44 34 45 / 22 44 53 53 / 22 44 34 15"
+  },
+  {
+    id:4,
+    name:"POMPIER",
+    contact:"180"
+  },
+  {
+    id:5,
+    name:"Police secours",
+    contact:"111 / 170"
+  },
+  {
+    id:6,
+    name:"CIE Depannage",
+    contact:"179"
+  },
 ]
