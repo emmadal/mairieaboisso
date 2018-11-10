@@ -7,9 +7,9 @@ export default function Banniere() {
     <div className="">
         <div className="container">
           <div className="row mybanniere">
-            <div className="col-md-3">
+            <div className="col-md-3 text-center">
               <img src={require('../components/img/BANNIERE.jpg')} alt="banniere"
-                className="mybanniere"
+                className="mybanniere text-center"
               />
             </div>
             <div className="col-md-7 text-center">
@@ -18,9 +18,9 @@ export default function Banniere() {
               N'Gouan
               </h5>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 text-center">
               <img src={require('../components/img/logo.jpg')} alt="banniere"
-                className="mybanniere"
+                className="logo text-center"
               />
             </div>
           </div>
