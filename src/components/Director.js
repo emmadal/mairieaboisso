@@ -37,7 +37,7 @@ class Director extends React.Component {
                   </p>
                 </div>
                 <div className="col-md">
-                  <img src={require('../components/img/maireaboisso.png')} alt="maire"  className="float-right img-fluid img-thumbnail"/>
+                  <img src={require('../components/img/jeremy.png')} alt="maire"  className="float-right img-fluid img-thumbnail"/>
                 </div>
               </div>
             </div>
