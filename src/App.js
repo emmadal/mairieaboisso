@@ -8,6 +8,7 @@ import Quartiers from './components/pages/Quartiers'
 import Royaume from './components/pages/Royaume'
 import AdressesUtiles from './components/pages/AdressesUtiles'
 import Presentation from './components/pages/Presentation'
+import Contact from './components/pages/Contact'
 import Organigrammes from './components/pages/Organigrammes'
 import SitesTourisme from './components/pages/SitesTourisme'
 import MotMaire from './components/pages/MotMaire'
@@ -25,6 +26,7 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/historique-aboisso" component={HistoriqueVille} />
         <Route path="/etat-civil" component={EtatCivil} />
+        <Route path="/contact" component={Contact} />
         <Route path="/decouvrir-aboisso" component={DecouvrirVille} />
         <Route path="/amenagements-urbains" component={Amenagements} />
         <Route path="/au-coeur-des-quartiers" component={Quartiers} />
