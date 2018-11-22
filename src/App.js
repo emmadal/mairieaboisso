@@ -7,7 +7,7 @@ import Amenagements from './components/pages/Amenagements'
 import Quartiers from './components/pages/Quartiers'
 import Royaume from './components/pages/Royaume'
 import AdressesUtiles from './components/pages/AdressesUtiles'
-import ConseilMunicipal from './components/pages/ConseilMunicipal'
+import Presentation from './components/pages/Presentation'
 import Organigrammes from './components/pages/Organigrammes'
 import SitesTourisme from './components/pages/SitesTourisme'
 import MotMaire from './components/pages/MotMaire'
@@ -32,7 +32,7 @@ function App() {
         <Route path="/sites-touristiques" component={SitesTourisme} />
         <Route path="/royaume-sanwi" component={Royaume} />
         <Route path="/adresses-utiles" component={AdressesUtiles} />
-        <Route path="/conseil-municipal" component={ConseilMunicipal} />
+        <Route path="/presentation" component={Presentation} />
         <Route path="/services" component={Organigrammes} />
         <Route component={ErrorPage404}/>
       </Switch>
