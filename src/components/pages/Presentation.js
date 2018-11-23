@@ -18,7 +18,7 @@ const Presentation = () => {
   return(
     <div>
       <Container>
-        <h1 className="mt-5 mb-5 text-green h1-responsive mytitle">Presentation de la Mairie</h1>
+        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle">Presentation de la Mairie</h3>
         <Row>
         	<Col sm="12">
         		{

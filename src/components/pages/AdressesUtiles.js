@@ -7,7 +7,7 @@ export default function AdressesUtiles() {
     <div>
     <div>
       <Container>
-        <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Les adresses utiles</h1>
+        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Les adresses utiles</h3>
         <Row>
           <Col sm="12 mt-3">
             <h3 className="h3-responsive mytitle font-weight-bold text-center mb-3">

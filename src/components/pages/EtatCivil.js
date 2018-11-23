@@ -6,7 +6,7 @@ export default function EtatCivil() {
   return(
     <div>
       <Container>
-        <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Etat civil</h1>
+        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Etat civil</h3>
         <Row>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">

@@ -4,7 +4,7 @@ export default function Amenagements() {
   return(
     <div>
     <Container>
-      <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Amenagements urbains</h1>
+      <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Amenagements urbains</h3>
     </Container>
     </div>
   )

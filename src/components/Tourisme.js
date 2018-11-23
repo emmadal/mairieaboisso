@@ -6,7 +6,7 @@ export default function Tourisme() {
   return(
     <div className="">
         <div className="container">
-          <h1 className="mt-5 mb-2 text-green h1-responsive mytitle"> SITES TOURISTIQUES </h1>
+          <h3 className="mt-5 mb-2 text-green h3-responsive mytitle"> SITES TOURISTIQUES </h3>
           <div className="row">
             <div className="col-md-12">
               <p className="text-justify text-justify descriptn">{description[0].text}</p>

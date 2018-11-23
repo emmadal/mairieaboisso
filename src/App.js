@@ -9,9 +9,7 @@ import Royaume from './components/pages/Royaume'
 import AdressesUtiles from './components/pages/AdressesUtiles'
 import Presentation from './components/pages/Presentation'
 import Contact from './components/pages/Contact'
-import Organigrammes from './components/pages/Organigrammes'
 import SitesTourisme from './components/pages/SitesTourisme'
-import MotMaire from './components/pages/MotMaire'
 import ErrorPage404 from './components/pages/ErrorPage404'
 import EtatCivil from './components/pages/EtatCivil'
 import FooterPage from './components/FooterPage'
@@ -30,12 +28,10 @@ function App() {
         <Route path="/decouvrir-aboisso" component={DecouvrirVille} />
         <Route path="/amenagements-urbains" component={Amenagements} />
         <Route path="/au-coeur-des-quartiers" component={Quartiers} />
-        <Route path="/mot-maire" component={MotMaire} />
         <Route path="/sites-touristiques" component={SitesTourisme} />
         <Route path="/royaume-sanwi" component={Royaume} />
         <Route path="/adresses-utiles" component={AdressesUtiles} />
         <Route path="/presentation" component={Presentation} />
-        <Route path="/services" component={Organigrammes} />
         <Route component={ErrorPage404}/>
       </Switch>
       <FooterPage />

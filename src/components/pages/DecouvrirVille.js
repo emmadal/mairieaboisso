@@ -10,7 +10,7 @@ export default function DecouvrirVille() {
   return(
     <div>
       <div className="container">
-        <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Decouvrir Aboisso </h1>
+        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Decouvrir Aboisso </h3>
         <div className="row">
           <div className="col-md-12">
             <img src={require('../img/ville_aboisso_large.png')} className="img-fluid rounded" alt="Histoire"/>
@@ -28,7 +28,7 @@ export default function DecouvrirVille() {
         </div>
       </div>
       <Container>
-        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Activites Culturelles</h3>
+        <h4 className="mt-5 mb-5 text-green h4-responsive mytitle"> Activites Culturelles</h4>
         <Row>
           {
             culturels.map((data, key) =>(
@@ -53,7 +53,7 @@ export default function DecouvrirVille() {
       </Container>
 
       <Container>
-        <h3 className="mt-5 mb-3 text-green h3-responsive mytitle"> Activités économiques</h3>
+        <h4 className="mt-5 mb-3 text-green h4-responsive mytitle"> Activités économiques</h4>
         <Row>
             {
               economies.map((doc) => (
@@ -67,7 +67,7 @@ export default function DecouvrirVille() {
       </Container>
 
       <Container>
-        <h3 className="mt-3 mb-3 text-green h3-responsive mytitle"> Securite et systeme educatif</h3>
+        <h4 className="mt-3 mb-3 text-green h4-responsive mytitle"> Securite et systeme educatif</h4>
         <Row>
             {
               securites.map((doc) => (

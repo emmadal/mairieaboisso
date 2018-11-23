@@ -48,7 +48,7 @@ export default class Patrimoine extends React.Component {
                 <TabPane tabId="1">
                   <Row>
                     <Col sm="12">
-                      <h5 className="h5-responsive mytitle">Relief</h5>
+                      <h5 className="h5-responsive mytitle mt-4">Relief</h5>
                       <p className="text-justify descriptn">
                         {
                         description[3].textrelief
@@ -87,7 +87,7 @@ export default class Patrimoine extends React.Component {
                 <TabPane tabId="2">
                   <Row>
                     <Col sm="12">
-                      <h5 className="h5-responsive mytitle">Population</h5>
+                      <h5 className="h5-responsive mytitle mt-4">Population</h5>
                       <p className="text-justify descriptn">
                         {
                         description[6].textpopulation

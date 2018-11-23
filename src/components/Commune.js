@@ -7,7 +7,7 @@ export default function Commune() {
   return(
     <div className="">
         <div className="container">
-          <h1 className="mt-5 mb-2 text-green h1-responsive mytitle"> LA COMMUNE </h1>
+          <h3 className="mt-5 mb-2 text-green h3-responsive mytitle"> LA COMMUNE </h3>
           <div className="row mt-3">
             <div className="col-md text-center">
               <View zoom>
@@ -15,11 +15,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <h5 className="h5-responsive mt-2 float-left font-weight-bold">
                 <Link to="/historique-aboisso" className="black-text">
                   Historique de la ville
                 </Link>
-              </h4>
+              </h5>
             </div>
             <div className="col-md text-center">
               <View zoom>
@@ -27,11 +27,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <h5 className="h5-responsive mt-2 float-left font-weight-bold">
               <Link to="/decouvrir-aboisso" className="black-text">
                 Decouvrir la ville
               </Link>
-              </h4>
+              </h5>
             </div>
             <div className="col-md text-center">
               <View zoom>
@@ -39,11 +39,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <h5 className="h5-responsive mt-2 float-left font-weight-bold">
               <Link to="/decouvrir-aboisso" className="black-text">
                 Le systeme educatif à Aboisso
               </Link>
-              </h4>
+              </h5>
             </div>
           </div>
           <div className="row mt-3">
@@ -53,11 +53,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <h5 className="h5-responsive mt-2 float-left font-weight-bold">
                 <Link to="/royaume-sanwi" className="black-text">
                   Nos valeurs
                 </Link>
-              </h4>
+              </h5>
             </div>
             <div className="col-md text-center">
               <View zoom>
@@ -65,11 +65,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <h5 className="h5-responsive mt-2 float-left font-weight-bold">
                 <Link to="/decouvrir-aboisso" className="black-text">
                   La vie economique de la ville
                 </Link>
-              </h4>
+              </h5>
             </div>
             <div className="col-md text-center">
               <View zoom>
@@ -77,11 +77,11 @@ export default function Commune() {
                   className="img-thumbnail img-responsive"
                 />
               </View>
-              <h4 className="h4-responsive mt-2 float-left font-weight-bold">
+              <h5 className="h5-responsive mt-2 float-left font-weight-bold">
                 <Link to="/decouvrir-aboisso" className="black-text">
                   La securite à Aboisso
                 </Link>
-              </h4>
+              </h5>
             </div>
           </div>
         </div>

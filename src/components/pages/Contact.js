@@ -66,7 +66,7 @@ class Contact extends React.Component  {
   render() {
     return(
       <Container className="mt-5">
-      <h1 className="my-3 text-green h1-responsive mytitle"> Contact </h1>
+      <h3 className="my-3 text-green h3-responsive mytitle"> Contact </h3>
       <ToastContainer
 				position="top-center"
 				autoClose={5000}

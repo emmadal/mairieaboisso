@@ -25,7 +25,7 @@ export default class Royaume extends React.Component {
     return (
       <div>
         <div className="container">
-          <h1 className="mt-5 mb-5 h1-responsive mytitle"> Royaume du SANWI </h1>
+          <h3 className="mt-5 mb-5 h3-responsive mytitle"> Royaume du SANWI </h3>
           <div className="row">
             <div className="col-md-12">
               <p className="text-justify descriptn">{royaume[0].textintro}</p>

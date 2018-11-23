@@ -4,16 +4,15 @@ export default function ErrorPage404() {
   return(
     <div>
       <div className="container">
-        <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Aucune page trouve !</h1>
+        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Aucune page trouve !</h3>
         <div className="row">
           <div className="col-md-12">
-            <iframe 
+            <iframe
             title="error"
             src="https://giphy.com/embed/eWJKz0mvZwbL2" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          </div>          
+          </div>
         </div>
       </div>
     </div>
   )
 }
-
