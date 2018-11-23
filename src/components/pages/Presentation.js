@@ -44,7 +44,7 @@ const Presentation = () => {
                     <NavLink
                       className={classnames({ active: activeTab === '2' })}
                       onClick={() => { toggle('2'); }}>
-                      <p className="mytitle font-weight-bold">CABINET DU MAIRE</p>
+                      <p className="mytitle font-weight-bold">LE CABINET DU MAIRE</p>
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -65,7 +65,7 @@ const Presentation = () => {
                     <NavLink
                       className={classnames({ active: activeTab === '5' })}
                       onClick={() => { toggle('5'); }}>
-                      <p className="mytitle font-weight-bold">ORGANIGRAMME</p>
+                      <p className="mytitle font-weight-bold">L' ORGANIGRAMME</p>
                     </NavLink>
                   </NavItem>
               </Nav>
