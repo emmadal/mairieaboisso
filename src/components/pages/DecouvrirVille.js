@@ -79,11 +79,11 @@ export default function DecouvrirVille() {
             }
         </Row>
         <Row>
+          <h5 className="mytitle h5-responsive mx-3">Plan educatif</h5>
             {
               educations.map((doc) => (
                 <Col sm="12">
-                  <h5 className="mytitle h5-responsive">Plan educatif</h5>
-                  <p className="text-justify descriptn">{doc.text}</p>
+                  <p className="text-justify descriptn">{doc.name}</p>
                 </Col>
               ))
             }

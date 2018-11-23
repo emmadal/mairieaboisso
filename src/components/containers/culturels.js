@@ -55,6 +55,35 @@ export const securites = [
 ]
 export const educations = [
   {
-
-  }
+    id:1,
+    name:"Lycee Moderne d'Aboisso"
+  },
+  {
+    id:2,
+    name:"Le College Moderne d'Aboisso"
+  },
+  {
+    id:3,
+    name:"Lycee moderne d'Aboisso "
+  },
+  {
+    id:4,
+    name:"Le Groupe Scolaire des Enseignants d'Aboisso"
+  },
+  {
+    id:5,
+    name:"Le College le Jourdain d'Aboisso"
+  },
+  {
+    id:6,
+    name:"L'ecole Secondaire Catholique Alberto Fontana d'Aboisso"
+  },
+  {
+    id:7,
+    name:"Le College Cephaste d'Aboisso"
+  },
+  {
+    id:8,
+    name:"Le college notre Dame St Pierre la Chappelle d'aboisso"
+  },
 ]
