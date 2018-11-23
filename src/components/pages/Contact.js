@@ -104,7 +104,7 @@ class Contact extends React.Component  {
               <div className="col-md-4 mb-3">
                 <label htmlFor="defaultFormRegisterConfirmEx3" className="grey-text">Email</label>
                 <input value={this.state.email} onChange={this.changeHandler} type="email" id="defaultFormRegisterConfirmEx3" className="form-control" name='email' placeholder="Email" required/>
-                <small id="emailHelp" className="form-text text-muted">Nous ne publierons jamais votre e-mai</small>
+                <small id="emailHelp" className="form-text text-muted">Nous ne publierons jamais votre e-mail</small>
               </div>
             </Row>
             <Row>

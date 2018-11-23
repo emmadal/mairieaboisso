@@ -120,6 +120,13 @@ const Presentation = () => {
                 </TabPane>
 
                 <TabPane tabId="4">
+                  <p className="text-justify descriptn mt-3 px-2">
+                    Elu aux elections municipales organisees le 13 octobre
+                    2018 ,le conseil municipal est composé de :
+                  </p>
+                  <p className="text-justify descriptn px-2">
+                    N'Gouan Jeremie Alfred <i className="font-weight-bold">(Le maire)</i>
+                  </p>
                   {
                     conseillers.map((text, key) => (
                       <ul key={key}>

@@ -9,7 +9,7 @@ export const culturels = [
     id:2,
     title:"Samandjê beach",
     image:require('../img/samandjebeach.png'),
-    text:"Le samandjê beach permet aux fils et filles de la region de se retrouver et faire la fête pendant 3 jours."
+    text:"Le samandjê beach permet aux fils et filles de la region de se retrouver et faire la fête pendant 3 jours. Ce festival se deroule dans le mois d'avril (mi-avril). Nous avons comme activités : parade nautique, course pirogue, balade lagunaire, concours miss samandjê beach"
   },
   {
     id:3,
