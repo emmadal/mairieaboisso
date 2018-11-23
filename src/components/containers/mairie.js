@@ -112,10 +112,6 @@ export const contact = [
   },
   {
     id:3,
-    name:"Boite postale : 246 Aboisso"
-  },
-  {
-    id:4,
     name:"Téléphone : 21 30 41 23 / 21 30 68 15"
   },
 ]
