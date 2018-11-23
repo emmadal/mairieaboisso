@@ -8,42 +8,42 @@ export const mairie = [
 export const cabinet = [
 	{
     id:1,
-    info:"Le Cabinet du maire est une organisation mue par la recherche de l’efficacité et la rationalité. C’est l’organe de décision et de gestion de la commune. Il est structuré comme suite :" 
+    info:"Le Cabinet du maire est une organisation mue par la recherche de l’efficacité et la rationalité. C’est l’organe de décision et de gestion de la commune. Il est structuré comme suite :"
   },
 ]
 
 export const cabinetservices = [
 	{
     id:1,
-    info:"Un Directeur de Cabinet " 
+    info:"Un Directeur de Cabinet "
   },
   {
     id:2,
-    info:"Un Chef de Cabinet " 
+    info:"Un Chef de Cabinet "
   },
   {
     id:3,
-    info:"Des conseillers Techniques et Spéciaux  " 
+    info:"Des conseillers Techniques et Spéciaux  "
   },
   {
     id:4,
-    info:"Un Secrétaire ou une Secrétaire particulier(e) " 
+    info:"Un Secrétaire ou une Secrétaire particulier(e) "
   },
   {
     id:5,
-    info:"Un protocole et la garde rapprochée  " 
+    info:"Un protocole et la garde rapprochée  "
   },
   {
     id:6,
-    info:"Un service Autonome des projets de la formation et de l’emploi" 
+    info:"Un service Autonome des projets de la formation et de l’emploi"
   },
   {
     id:7,
-    info:"Un service de communication" 
+    info:"Un service de communication"
   },
   {
     id:8,
-    info:"Une plate-forme des services rattachés au cabinet du maire" 
+    info:"Une plate-forme des services rattachés au cabinet du maire"
   },
 ]
 
@@ -66,7 +66,7 @@ export const secretariatservices = [
 		id:3,
 		info:"Les services rattachés au secrétariat General "
 	},
-		
+
 ]
 
 export const direction = [
@@ -99,6 +99,25 @@ export const directionservices = [
 		id:5,
 		info:"La Direction des Services du développement Local"
 	},
+]
+
+export const contact = [
+  {
+    id:1,
+    name:"Email : aboissomairie@yahoo.fr"
+  },
+  {
+    id:2,
+    name:"Boite postale : 246 Aboisso"
+  },
+  {
+    id:3,
+    name:"Boite postale : 246 Aboisso"
+  },
+  {
+    id:4,
+    name:"Téléphone : 21 30 41 23 / 21 30 68 15"
+  },
 ]
 
 export const conseillers = [

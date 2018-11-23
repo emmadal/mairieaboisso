@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'mdbreact';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import firebase from '../containers/firebase'
+import {contact} from '../containers/mairie'
 
 class Contact extends React.Component  {
 	constructor(props){
@@ -65,7 +66,7 @@ class Contact extends React.Component  {
   render() {
     return(
       <Container className="mt-5">
-      <h1 className="mt-5 mb-5 text-green h1-responsive mytitle"> Contact </h1>
+      <h1 className="my-3 text-green h1-responsive mytitle"> Contact </h1>
       <ToastContainer
 				position="top-center"
 				autoClose={5000}
@@ -77,6 +78,15 @@ class Contact extends React.Component  {
 				draggable
 				pauseOnHover
 				/>
+				<Row className="">
+					<Col sm="12" className="mt-3 mb-3">
+						{
+							contact.map((text, key) =>(
+								<p className="descriptn text-justify">{text.name}</p>
+							))
+						}
+					</Col>
+				</Row>
         <Row className="mt-6">
           <Col md="">
             <form className='needs-validation' onSubmit={this.submitHandler} noValidate>
@@ -122,7 +132,7 @@ class Contact extends React.Component  {
             		<label htmlFor="defaultFormRegisterPasswordEx4" className="grey-text">
             			Votre message
             		</label>
-            		<textarea value={this.state.message} className="form-control" id="exampleFormControlTextarea3" rows="7" 
+            		<textarea value={this.state.message} className="form-control" id="exampleFormControlTextarea3" rows="7"
             			name='message' onChange={this.changeHandler} required>
             		</textarea>
             		<div className="invalid-feedback">Veuillez ecrire votre message.</div>
