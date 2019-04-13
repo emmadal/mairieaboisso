@@ -1,0 +1,12 @@
+#myfooter,#myfooter{
+  background: #252527;
+  border-top: 1px solid green;
+}
+/**/
+.fa-twitter:hover {
+  background:"#66d9e8"
+}
+.social{
+  width:40px;
+  height: 40px;
+}
