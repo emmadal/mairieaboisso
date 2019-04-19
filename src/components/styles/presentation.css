@@ -1,0 +1,9 @@
+.rowmaire{
+    display:flex;
+    justify-content: center;
+}
+.rowadjoint{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
