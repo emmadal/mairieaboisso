@@ -14,12 +14,7 @@ import {
   CardText,
   CardTitle
 } from "reactstrap"
-import { Collapse, MDBCard, MDBCol,
-MDBCardImage,
-MDBCardBody,
-MDBCardTitle,
-MDBCardText,
-MDBBtn } from "mdbreact"
+import { Collapse } from "mdbreact"
 import {
   mairie,
   cabinet,
@@ -266,20 +261,18 @@ const Presentation = () => {
                 </Card>  
               </Col>
               <Container className="mt-4">
-                <Row >
-                  <MDBCol sm="12" className="rowadjoint">
-                    {
-                      photomunicipalite.map((i, w) => (
-                        <MDBCard style={{ width: "22rem" }} className="my-3">
-                          <MDBCardImage className="img-fluid rounded" src={i.img} waves />
-                          <MDBCardBody>
-                            <MDBCardTitle>{i.name}</MDBCardTitle>
-                            <MDBCardText> { i.fonction } </MDBCardText>
-                          </MDBCardBody>
-                        </MDBCard>                  
-                      ))
-                    }
-                  </MDBCol>
+                <Row className="rowadjoint">
+                  {
+                    photomunicipalite.map((i, w) =>(
+                      <Card key={w} className="my-3">
+                        <CardImg top width="100%" src={i.img} className="img-fluid" />
+                        <CardBody>
+                          <CardTitle className="text-center text-justify font-weight-bold descriptn"> {i.name} </CardTitle>
+                          <CardText className="text-center text-justify font-weight-bold descriptn"> { i.fonction} </CardText>
+                        </CardBody>
+                      </Card>
+                    ))
+                  }
                 </Row>
               </Container>
             </TabPane>

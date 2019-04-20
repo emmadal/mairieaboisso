@@ -1,31 +1,31 @@
 const photomunicipalite = [
   {
     id: 1,
-    img: require("../img/1eradjoint.jpg"),
+    img: require("../img/1eradjoint.webp"),
     fonction: "1er Adjoint au Maire",
     name: "BILE KASSI ALPHONSE"
   },
   {
     id: 2,
-    img: require("../img/2eadjoint.jpg"),
+    img: require("../img/2eadjoint.webp"),
     fonction: "2e Adjoint au Maire",
-    name: "BENIE JEAN PAU"
+    name: "BENIE KAKOU JEAN PAUL"
   },
   {
     id: 3,
-    img: require("../img/3eadjoint.jpg"),
+    img: require("../img/3eadjoint.webp"),
     fonction: "3e Adjoint au Maire",
     name: "KOFFI EKUE EPSE KADJA"
   },
   {
     id: 4,
-    img: require("../img/4eadjoint.jpg"),
+    img: require("../img/4eadjoint.webp"),
     fonction: "4e Adjoint au Maire",
-    name: "ADJAFFI ANGELINE"
+    name: "ADJAFFI ANGELINE EPSE NANGA"
   },
   {
     id: 5,
-    img: require("../img/5eadjoint.jpg"),
+    img: require("../img/5eadjoint.webp"),
     fonction: "5e Adjoint au Maire",
     name: "DOUMBIA DAOUDA"
   }
