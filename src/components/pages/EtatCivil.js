@@ -1,13 +1,16 @@
-import React from 'react'
-import {Container, Row, Col} from 'reactstrap'
-import {Button} from 'mdbreact'
-import {civil} from '../containers/civil'
+import React from "react"
+import { Container, Row, Col } from "reactstrap"
+import { Button } from "mdbreact"
+import { civil } from "../containers/civil"
 
 export default function EtatCivil() {
-  return(
+  return (
     <div>
       <Container>
-        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle"> Etat civil</h3>
+        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle">
+          {" "}
+          Etat civil
+        </h3>
         <Row>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -17,12 +20,10 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">S’adresser à :</h6>
               <i className="descriptn">Mairie du domicile</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[0].concubinage
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[0].concubinage}</p>
           </Col>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -32,12 +33,10 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">S’adresser à :</h6>
               <i className="descriptn">Mairie du domicile</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[2].domicile
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[2].domicile}</p>
           </Col>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -47,12 +46,10 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">S’adresser à :</h6>
               <i className="descriptn">Mairie du domicile</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[3].electeur
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[3].electeur}</p>
           </Col>
         </Row>
         <Row>
@@ -62,16 +59,14 @@ export default function EtatCivil() {
             </h5>
             <span>
               <h6 className="font-weight-bold h6-responsive">S’adresser à :</h6>
-              <i className="descriptn">la Mairie du lieu de mariage remis le jour de la
-                célébration.
+              <i className="descriptn">
+                la Mairie du lieu de mariage remis le jour de la célébration.
               </i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[4].livretfamille
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[4].livretfamille}</p>
           </Col>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -81,14 +76,14 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">S’adresser à :</h6>
               <i className="descriptn">Mairie du lieu de naissance</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[5].naissance
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[5].naissance}</p>
             <h6 className="font-weight-bold h6-responsive mt-2">Délai :</h6>
-            <p className="descriptn">Trois (03) mois à compter du jour de la naissance.</p>
+            <p className="descriptn">
+              Trois (03) mois à compter du jour de la naissance.
+            </p>
           </Col>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -98,14 +93,15 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
               <i className="descriptn">Toute Mairie</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[6].militaire}</p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Personnes concernées :
+            </h6>
             <p className="descriptn">
-              {
-                civil[6].militaire
-              }
-            </p>
-            <h6 className="font-weight-bold h6-responsive mt-2">Personnes concernées :</h6>
-            <p className="descriptn">Hommes et femmes de nationalité ivoirienne âgés de 18 ans au
+              Hommes et femmes de nationalité ivoirienne âgés de 18 ans au
               moins.
             </p>
           </Col>
@@ -120,15 +116,14 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
               <i className="descriptn">Toute Mairie</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[7].certification
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[7].certification}</p>
             <h6 className="font-weight-bold h6-responsive mt-2">NB :</h6>
-            <p className="descriptn">les agents publics ne peuvent traiter des documents en
-              langue étrangère non traduits en français.
+            <p className="descriptn">
+              les agents publics ne peuvent traiter des documents en langue
+              étrangère non traduits en français.
             </p>
           </Col>
           <Col sm="4">
@@ -139,15 +134,14 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
               <i className="descriptn">Toute Mairie</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[8].legalisation
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[8].legalisation}</p>
             <h6 className="font-weight-bold h6-responsive mt-2">NB :</h6>
-            <p className="descriptn">les agents publics ne peuvent traiter des documents en
-              langue étrangère non traduits en français.
+            <p className="descriptn">
+              les agents publics ne peuvent traiter des documents en langue
+              étrangère non traduits en français.
             </p>
           </Col>
           <Col sm="4">
@@ -156,14 +150,14 @@ export default function EtatCivil() {
             </h5>
             <span>
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
-              <i className="descriptn">Mairie du lieu de naissance de l’enfant</i>
+              <i className="descriptn">
+                Mairie du lieu de naissance de l’enfant
+              </i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[9].enfantlivret
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[9].enfantlivret}</p>
           </Col>
         </Row>
 
@@ -176,12 +170,10 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
               <i className="descriptn">Mairie du lieu de mariage</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[10].duplicatalivret
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[10].duplicatalivret}</p>
           </Col>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -189,14 +181,14 @@ export default function EtatCivil() {
             </h5>
             <span>
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
-              <i className="descriptn">Mairie du lieu de naissance, mariage ou décès</i>
+              <i className="descriptn">
+                Mairie du lieu de naissance, mariage ou décès
+              </i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[11].acte
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[11].acte}</p>
           </Col>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -204,22 +196,23 @@ export default function EtatCivil() {
             </h5>
             <span>
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
-              <i className="descriptn">Mairie du lieu de résidence de l’un des futurs époux ou
-                tout autre lieu sur réquisition du Procureur de la République.
+              <i className="descriptn">
+                Mairie du lieu de résidence de l’un des futurs époux ou tout
+                autre lieu sur réquisition du Procureur de la République.
               </i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">(voir fiche pour la constitution du dossier de mariage)</p>
-            <h6 className="font-weight-bold h6-responsive mt-2">Tarif :</h6>
-            <p className="descriptn">100.000 F CFA du mercredi au samedi.</p>
-            <h6 className="font-weight-bold h6-responsive mt-2">Documents délivrés à l’issue du
-              mariage :
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
             </h6>
             <p className="descriptn">
-              {
-                civil[12].mariagecivil
-              }
+              (voir fiche pour la constitution du dossier de mariage)
             </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">Tarif :</h6>
+            <p className="descriptn">100.000 F CFA du mercredi au samedi.</p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Documents délivrés à l’issue du mariage :
+            </h6>
+            <p className="descriptn">{civil[12].mariagecivil}</p>
           </Col>
         </Row>
 
@@ -232,20 +225,24 @@ export default function EtatCivil() {
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
               <i className="descriptn"> Mairie du lieu de décès</i>
             </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">Pièces à fournir :</h6>
-            <p className="descriptn">
-              {
-                civil[13].deces
-              }
-            </p>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[13].deces}</p>
             <h6 className="font-weight-bold h6-responsive mt-2">Délai :</h6>
-            <p className="descriptn">Quinze (15) jours à compter du jour du décès.</p>
+            <p className="descriptn">
+              Quinze (15) jours à compter du jour du décès.
+            </p>
           </Col>
         </Row>
         <Row className="mt-5">
           <Col sm="12 extrait">
             <Button color="green" className="btnextrait">
-              <a href="https://documents.ci/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://documents.ci/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="text-white font-weight-bold">
                   Faire une demande en ligne
                 </span>

@@ -9,7 +9,7 @@ import {
   Row,
   Col,
   Card,
-  CardImg, 
+  CardImg,
   CardBody,
   CardText,
   CardTitle
@@ -32,7 +32,7 @@ import {
   /*     competences,
     detailscompetences, */
   municipalite,
-  membresmunicipalite
+  // membresmunicipalite
 } from "../containers/conseilmunicipal"
 
 import classnames from "classnames"
@@ -116,7 +116,7 @@ const Presentation = () => {
                   }}
                 >
                   <p className="mytitle font-weight-bold">
-                    LES SERVICES DE LA MARIE
+                    LES SERVICES DE LA MAIRIE
                   </p>
                 </NavLink>
               </NavItem>
@@ -253,26 +253,44 @@ const Presentation = () => {
               </p>
               <Col sm="12" className="text-center rowmaire">
                 <Card>
-                  <CardImg top width="100%" classname="img-responsive" src={photomaire[0].img}/>
+                  <CardImg
+                    top
+                    width="100%"
+                    classname="img-responsive"
+                    src={photomaire[0].img}
+                  />
                   <CardBody>
-                    <CardTitle className="text-center text-justify font-weight-bold descriptn">{photomaire[0].name}</CardTitle>
-                    <CardText className="text-center font-weight-bold descriptn">{photomaire[0].fonction}</CardText>
+                    <CardTitle className="text-center text-justify font-weight-bold descriptn">
+                      {photomaire[0].name}
+                    </CardTitle>
+                    <CardText className="text-center font-weight-bold descriptn">
+                      {photomaire[0].fonction}
+                    </CardText>
                   </CardBody>
-                </Card>  
+                </Card>
               </Col>
               <Container className="mt-4">
                 <Row className="rowadjoint">
-                  {
-                    photomunicipalite.map((i, w) =>(
-                      <Card key={w} className="my-3">
-                        <CardImg top width="100%" src={i.img} className="img-fluid" />
-                        <CardBody>
-                          <CardTitle className="text-center text-justify font-weight-bold descriptn"> {i.name} </CardTitle>
-                          <CardText className="text-center text-justify font-weight-bold descriptn"> { i.fonction} </CardText>
-                        </CardBody>
-                      </Card>
-                    ))
-                  }
+                  {photomunicipalite.map((i, w) => (
+                    <Card key={w} className="my-3">
+                      <CardImg
+                        top
+                        width="100%"
+                        src={i.img}
+                        className="img-fluid"
+                      />
+                      <CardBody>
+                        <CardTitle className="text-center text-justify font-weight-bold descriptn">
+                          {" "}
+                          {i.name}{" "}
+                        </CardTitle>
+                        <CardText className="text-center text-justify font-weight-bold descriptn">
+                          {" "}
+                          {i.fonction}{" "}
+                        </CardText>
+                      </CardBody>
+                    </Card>
+                  ))}
                 </Row>
               </Container>
             </TabPane>

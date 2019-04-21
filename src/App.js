@@ -1,25 +1,25 @@
-import React from 'react';
-import Home from './components/pages/Home'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import HistoriqueVille from './components/pages/HistoriqueVille'
-import DecouvrirVille from './components/pages/DecouvrirVille'
-import Amenagements from './components/pages/Amenagements'
-import Cultures from './components/pages/Cultures'
-import Royaume from './components/pages/Royaume'
-import PriseCharge from './components/pages/PriseCharge'
-import AdressesUtiles from './components/pages/AdressesUtiles'
-import Presentation from './components/pages/Presentation'
-import Contact from './components/pages/Contact'
-import SitesTourisme from './components/pages/SitesTourisme'
-import ErrorPage404 from './components/pages/ErrorPage404'
-import EtatCivil from './components/pages/EtatCivil'
-import Autorisation from './components/pages/Autorisation'
-import FooterPage from './components/FooterPage'
-import Banniere from './components/Banniere'
-import InfosPage from './components/InfosPage'
+import React from "react"
+import Home from "./components/pages/Home"
+import { BrowserRouter, Route, Switch } from "react-router-dom"
+import HistoriqueVille from "./components/pages/HistoriqueVille"
+import DecouvrirVille from "./components/pages/DecouvrirVille"
+import Amenagements from "./components/pages/Amenagements"
+import Cultures from "./components/pages/Cultures"
+import Royaume from "./components/pages/Royaume"
+import PriseCharge from "./components/pages/PriseCharge"
+import AdressesUtiles from "./components/pages/AdressesUtiles"
+import Presentation from "./components/pages/Presentation"
+import Contact from "./components/pages/Contact"
+import SitesTourisme from "./components/pages/SitesTourisme"
+import ErrorPage404 from "./components/pages/ErrorPage404"
+import EtatCivil from "./components/pages/EtatCivil"
+import Autorisation from "./components/pages/Autorisation"
+import FooterPage from "./components/FooterPage"
+import Banniere from "./components/Banniere"
+import InfosPage from "./components/InfosPage"
 
 function App() {
-  return(
+  return (
     <BrowserRouter>
       <div>
         <Banniere />
@@ -38,7 +38,7 @@ function App() {
           <Route path="/presentation" component={Presentation} />
           <Route path="/activites-cuturelles" component={Cultures} />
           <Route path="/demande-autorisation" component={Autorisation} />
-          <Route component={ErrorPage404}/>
+          <Route component={ErrorPage404} />
         </Switch>
         <FooterPage />
       </div>
@@ -46,4 +46,4 @@ function App() {
   )
 }
 
-export default App;
+export default App

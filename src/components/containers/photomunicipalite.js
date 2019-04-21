@@ -14,13 +14,13 @@ const photomunicipalite = [
   {
     id: 3,
     img: require("../img/3eadjoint.webp"),
-    fonction: "3e Adjoint au Maire",
+    fonction: "3e Adjointe au Maire",
     name: "KOFFI EKUE EPSE KADJA"
   },
   {
     id: 4,
     img: require("../img/4eadjoint.webp"),
-    fonction: "4e Adjoint au Maire",
+    fonction: "4e Adjointe au Maire",
     name: "ADJAFFI ANGELINE EPSE NANGA"
   },
   {
@@ -32,7 +32,7 @@ const photomunicipalite = [
 ]
 const photomaire = [
   {
-    id: 5,
+    id: 1,
     img: require("../img/maire.jpg"),
     fonction: "Maire",
     name: "JEREMIE ALFRED N'GOUAN"
