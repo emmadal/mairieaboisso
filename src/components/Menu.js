@@ -66,10 +66,10 @@ export default class Menu extends React.Component {
                     </DropdownItem>
                     <DropdownItem className="text-success">
                       <NavLink
-                        href="/amenagements-urbains"
+                        href="/projets"
                         className="text-success font-weight-bold"
                       >
-                        Amenagements urbains
+                        Les grands projets
                       </NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
@@ -94,18 +94,86 @@ export default class Menu extends React.Component {
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
                       <NavLink
-                        href="/presentation"
+                        href="/maire"
                         className="text-success font-weight-bold"
                       >
-                        Presentation de la Mairie
+                        Le Maire
                       </NavLink>
                     </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/municipalite"
+                        className="text-success font-weight-bold"
+                      >
+                        La Municipalite
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/conseil-municipal"
+                        className="text-success font-weight-bold"
+                      >
+                        Le Conseil Municipal
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/commissions"
+                        className="text-success font-weight-bold"
+                      >
+                        Les Commissions
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/services-municipaux"
+                        className="text-success font-weight-bold"
+                      >
+                        Les Services Municipaux
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/police-municipale"
+                        className="text-success font-weight-bold"
+                      >
+                        La Police Municipale
+                      </NavLink>
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle
+                    nav
+                    caret
+                    className="text-white font-weight-bold"
+                  >
+                    LES DEMARCHES
+                  </DropdownToggle>
+                  <DropdownMenu right>
                     <DropdownItem className="text-success">
                       <NavLink
                         href="/etat-civil"
                         className="text-success font-weight-bold"
                       >
-                        Etat civil
+                        Etat Civil
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/services-techniques"
+                        className="text-success font-weight-bold"
+                      >
+                        Services techniques
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/socio-culturels"
+                        className="text-success font-weight-bold"
+                      >
+                        Services socio culturels
                       </NavLink>
                     </DropdownItem>
                   </DropdownMenu>
@@ -117,43 +185,15 @@ export default class Menu extends React.Component {
                     caret
                     className="text-white font-weight-bold"
                   >
-                    ACTIONS SOCIALES
+                    COOPERATION
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
                       <NavLink
-                        href="/demande-autorisation"
+                        href="/partenariat"
                         className="text-success font-weight-bold"
                       >
-                        Demande d'autorisation
-                      </NavLink>
-                    </DropdownItem>
-                    <DropdownItem className="text-success">
-                      <NavLink
-                        href="/prise-charge"
-                        className="text-success font-weight-bold"
-                      >
-                        Demande de prise en charge
-                      </NavLink>
-                    </DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle
-                    nav
-                    caret
-                    className="text-white font-weight-bold"
-                  >
-                    A DECOUVRIR
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem className="text-success">
-                      <NavLink
-                        href="/royaume-sanwi"
-                        className="text-success font-weight-bold"
-                      >
-                        Royaume du SANWI
+                        Partenariat
                       </NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
@@ -164,12 +204,40 @@ export default class Menu extends React.Component {
                         Activites culturelles
                       </NavLink>
                     </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle
+                    nav
+                    caret
+                    className="text-white font-weight-bold"
+                  >
+                    ACTUALITES
+                  </DropdownToggle>
+                  <DropdownMenu right>
                     <DropdownItem className="text-success">
                       <NavLink
-                        href="/sites-touristiques"
+                        href="/audiences"
                         className="text-success font-weight-bold"
                       >
-                        Sites tourstiques
+                        Compte rendu des audiences
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/arretes-municipaux"
+                        className="text-success font-weight-bold"
+                      >
+                        Arretes Municipaux
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/proces-verbaux"
+                        className="text-success font-weight-bold"
+                      >
+                        Proces-verbaux
                       </NavLink>
                     </DropdownItem>
                   </DropdownMenu>
