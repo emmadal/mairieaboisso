@@ -59,9 +59,7 @@ export default class Patrimoine extends React.Component {
                       this.toggle("2")
                     }}
                   >
-                    <p className="mytitle font-weight-bold">
-                      Donnees humaines
-                    </p>
+                    <p className="mytitle font-weight-bold">Donnees humaines</p>
                   </NavLink>
                 </NavItem>
 
@@ -89,9 +87,7 @@ export default class Patrimoine extends React.Component {
                       this.toggle("4")
                     }}
                   >
-                    <p className="mytitle font-weight-bold">
-                      Infrastructures
-                    </p>
+                    <p className="mytitle font-weight-bold">Infrastructures</p>
                   </NavLink>
                 </NavItem>
 
@@ -119,9 +115,7 @@ export default class Patrimoine extends React.Component {
                       <p className="text-justify descriptn">
                         {description[3].textrelief}
                       </p>
-                      <h5 className="h5-responsive mytitle">
-                        Hydrographie
-                      </h5>
+                      <h5 className="h5-responsive mytitle">Hydrographie</h5>
                       <p className="text-justify descriptn">
                         {description[4].textclimat}
                       </p>
@@ -213,7 +207,9 @@ export default class Patrimoine extends React.Component {
                 <TabPane tabId="5">
                   <Row>
                     <Col sm="12">
-                      <h5 className="h5-responsive mytitle mt-5">Le Royaume Sanwi</h5>
+                      <h5 className="h5-responsive mytitle mt-5">
+                        Le Royaume Sanwi
+                      </h5>
                       <p className="text-justify descriptn">
                         {description[15].textroy}
                       </p>
@@ -221,12 +217,16 @@ export default class Patrimoine extends React.Component {
                       <p className="text-justify descriptn">
                         {description[16].textbia}
                       </p>
-                      <h5 className="h5-responsive mytitle">Hoteleries & Restauration </h5>
+                      <h5 className="h5-responsive mytitle">
+                        Hoteleries & Restauration 
+                      </h5>
                       <p className="text-justify descriptn">
                         {description[17].texthotels}
                       </p>
                       <details>
-                        <summary className="h5-responsive mytitle">Les Evenements culturels & Sportifs</summary>
+                        <summary className="h5-responsive mytitle">
+                          Les Evenements culturels & Sportifs
+                        </summary>
                         <ul>
                           <li className="text-justify descriptn black-text mt-4">
                             {description[18].textfestivals}
