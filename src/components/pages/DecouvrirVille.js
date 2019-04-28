@@ -30,7 +30,7 @@ export default function DecouvrirVille() {
         </div>
       </div>
 
-      <Container>
+      {/* <Container>
         <h4 className="mt-5 mb-3 text-green h4-responsive mytitle">
           {" "}
           Activités économiques
@@ -66,7 +66,7 @@ export default function DecouvrirVille() {
             </Col>
           ))}
         </Row>
-      </Container>
+      </Container> */}
     </div>
   )
 }
