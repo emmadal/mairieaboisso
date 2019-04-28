@@ -226,7 +226,7 @@ export default class Patrimoine extends React.Component {
                         {description[17].texthotels}
                       </p>
                       <details>
-                        <summary className="h5-responsive mytitle">Les Evenements culturels & Sportifs :</summary>
+                        <summary className="h5-responsive mytitle">Les Evenements culturels & Sportifs</summary>
                         <ul>
                           <li className="text-justify descriptn black-text mt-4">
                             {description[18].textfestivals}
