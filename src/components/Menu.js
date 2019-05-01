@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import {
   Collapse,
   Navbar,
@@ -10,23 +10,23 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem
-} from "reactstrap"
-import "./styles/menu.css"
-import { Route } from "react-router-dom"
+} from "reactstrap";
+import "./styles/menu.css";
+import { Route } from "react-router-dom";
 
 export default class Menu extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.toggle = this.toggle.bind(this)
+    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
-    }
+    };
   }
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
-    })
+    });
   }
   render() {
     return (
@@ -254,6 +254,6 @@ export default class Menu extends React.Component {
           </Navbar>
         </div>
       </Route>
-    )
+    );
   }
 }

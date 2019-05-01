@@ -1,31 +1,31 @@
-import React from "react"
-import Home from "./components/pages/Home"
-import { BrowserRouter, Route, Switch } from "react-router-dom"
-import HistoriqueVille from "./components/pages/HistoriqueVille"
-import DecouvrirVille from "./components/pages/DecouvrirVille"
-import Projets from "./components/pages/Projets"
-import Cultures from "./components/pages/Cultures"
-import Maire from "./components/pages/Maire"
-import Municipalite from "./components/pages/Municipalite"
-import ConseilMunicipal from "./components/pages/ConseilMunicipal"
-import Partenariat from "./components/pages/Partenariat"
-import Audiences from "./components/pages/Audiences"
-import ServicesTechniques from "./components/pages/ServicesTechniques"
-import Commissions from "./components/pages/Commissions.js"
-import ServicesMunicipaux from "./components/pages/ServicesMunicipaux.js"
-import SocioCulturelles from "./components/pages/SocioCulturelles.js"
-import PoliceMunicipale from "./components/pages/PoliceMunicipale"
-import ArretesMunicipaux from "./components/pages/ArretesMunicipaux"
-import ProcesVerbaux from "./components/pages/ProcesVerbaux"
-import AdressesUtiles from "./components/pages/AdressesUtiles"
-import Presentation from "./components/pages/Presentation"
-import Contact from "./components/pages/Contact"
-import ErrorPage404 from "./components/pages/ErrorPage404"
-import EtatCivil from "./components/pages/EtatCivil"
-import Autorisation from "./components/pages/Autorisation"
-import FooterPage from "./components/FooterPage"
-import Banniere from "./components/Banniere"
-import InfosPage from "./components/InfosPage"
+import React from "react";
+import Home from "./components/pages/Home";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import HistoriqueVille from "./components/pages/HistoriqueVille";
+import DecouvrirVille from "./components/pages/DecouvrirVille";
+import Projets from "./components/pages/Projets";
+import Cultures from "./components/pages/Cultures";
+import Maire from "./components/pages/Maire";
+import Municipalite from "./components/pages/Municipalite";
+import ConseilMunicipal from "./components/pages/ConseilMunicipal";
+import Partenariat from "./components/pages/Partenariat";
+import Audiences from "./components/pages/Audiences";
+import ServicesTechniques from "./components/pages/ServicesTechniques";
+import Commissions from "./components/pages/Commissions.js";
+import ServicesMunicipaux from "./components/pages/ServicesMunicipaux.js";
+import SocioCulturelles from "./components/pages/SocioCulturelles.js";
+import PoliceMunicipale from "./components/pages/PoliceMunicipale";
+import ArretesMunicipaux from "./components/pages/ArretesMunicipaux";
+import ProcesVerbaux from "./components/pages/ProcesVerbaux";
+import AdressesUtiles from "./components/pages/AdressesUtiles";
+import Presentation from "./components/pages/Presentation";
+import Contact from "./components/pages/Contact";
+import ErrorPage404 from "./components/pages/ErrorPage404";
+import EtatCivil from "./components/pages/EtatCivil";
+import Autorisation from "./components/pages/Autorisation";
+import FooterPage from "./components/FooterPage";
+import Banniere from "./components/Banniere";
+import InfosPage from "./components/InfosPage";
 
 function App() {
   return (
@@ -61,7 +61,7 @@ function App() {
         <FooterPage />
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -3,7 +3,7 @@ export const commissions = [
     id: 1,
     info: `Le rôle des commissions municipales est d'étudier les questions soumises au Conseil, sur lesquelles elles émettent un avis. Elles sont également un lieu de propositions et d'échanges. 
     
-    Chaque commission est présidée par un adjoint au Maire. Elles se réunissent généralement une fois par mois.Lors du conseil municipal du 25 avril 2019, les élus ont voté la constitution de 4commissions municipales en charge d'étudier les questions qui leur sont soumises.
+    Chaque commission est présidée par un adjoint au Maire. Elles se réunissent généralement une fois par mois.Lors du conseil municipal du 25 avril 2019, les élus ont voté la constitution de quatre(04) commissions municipales en charge d'étudier les questions qui leur sont soumises.
     `
   },
   {
