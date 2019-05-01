@@ -1,6 +1,6 @@
-import React from "react"
-import "./styles/banniere.css"
-import Menu from "./Menu"
+import React from "react";
+import "./styles/banniere.css";
+import Menu from "./Menu";
 
 export default function Banniere() {
   return (
@@ -26,12 +26,12 @@ export default function Banniere() {
             <img
               src={require("../components/img/logo.jpg")}
               alt="banniere"
-              className="logo text-center"
+              className="logo img-fluid text-center"
             />
           </div>
         </div>
       </div>
       <Menu />
     </div>
-  )
+  );
 }

@@ -11,7 +11,6 @@ import {
 } from "reactstrap";
 import classnames from "classnames";
 import { servicesmunicipaux } from "../containers/servicesmunicipaux";
-import { readFile } from "fs";
 
 export default function ServicesMuncipaux() {
   const [activetab, useActiveTab] = useState("")
@@ -52,7 +51,7 @@ export default function ServicesMuncipaux() {
                   <Row>
                     <Col sm="12">
                       <p className="text-justify descriptn my-5">
-                        {i.info}
+                        { i.id === '3' ?  i.info + i.id : i.info }
                       </p>
                     </Col>
                   </Row>

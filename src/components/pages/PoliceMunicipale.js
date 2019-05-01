@@ -1,5 +1,7 @@
-import React from "react"
-import { Container } from "mdbreact"
+import React from "react";
+import { Container, Col, Row } from "mdbreact";
+import { policemunicipale } from "../containers/policemunicipale";
+
 export default function PoliceMunicipale() {
   return (
     <div>
@@ -9,6 +11,18 @@ export default function PoliceMunicipale() {
           La Police Municipale
         </h3>
       </Container>
+      <Container>
+        <Row>
+          <Col sm="12">
+            {policemunicipale.map((i, key) => (
+              <p key={key} className="descriptn text-justify">
+                {" "}
+                {i.info}{" "}
+              </p>
+            ))}
+          </Col>
+        </Row>
+      </Container>
     </div>
-  )
+  );
 }
