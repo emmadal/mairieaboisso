@@ -1,13 +1,16 @@
-import React from "react"
-import { Container, Row, Col } from "mdbreact"
-import { ToastContainer, toast } from "react-toastify"
-import "react-toastify/dist/ReactToastify.css"
+import React from "react";
+import { Container, Row, Col } from "mdbreact";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 //import firebase from "../containers/firebase"
-import { contact } from "../containers/mairie"
+import { contact } from "../containers/mairie";
+const MongoClient = require("mongodb").MongoClient;
+
+const url = `mongodb://theripper:billgates225@ds121343.mlab.com:21343/mairieaboisso`;
 
 class Contact extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       fname: "",
       lname: "",
@@ -16,12 +19,12 @@ class Contact extends React.Component {
       state: "",
       num: "",
       message: ""
-    }
-    this.submitHandler = this.submitHandler.bind(this)
-    this.sendData = this.sendData.bind(this)
-    this.changeHandler = this.changeHandler.bind(this)
-    this.notify = this.notify.bind(this)
-    this.notifyFailed = this.notifyFailed.bind(this)
+    };
+    this.submitHandler = this.submitHandler.bind(this);
+    this.sendData = this.sendData.bind(this);
+    this.changeHandler = this.changeHandler.bind(this);
+    this.notify = this.notify.bind(this);
+    this.notifyFailed = this.notifyFailed.bind(this);
   }
   notify = () => {
     toast.success("Message envoye avec success 😄", {
@@ -31,8 +34,8 @@ class Contact extends React.Component {
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true
-    })
-  }
+    });
+  };
 
   notifyFailed = () => {
     toast.warning("Message non envoye 😢", {
@@ -42,14 +45,14 @@ class Contact extends React.Component {
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true
-    })
-  }
+    });
+  };
 
   submitHandler = event => {
-    event.preventDefault()
-    event.target.className += " was-validated"
-    this.sendData() == true ? this.notify() : this.notifyFailed()
-  }
+    event.preventDefault();
+    event.target.className += " was-validated";
+    this.sendData() == true ? this.notify() : this.notifyFailed();
+  };
 
   sendData = async event => {
     /* const res = await firebase.database().ref("Message")
@@ -69,12 +72,12 @@ class Contact extends React.Component {
       state: "",
       num: "",
       message: ""
-    })
-  }
+    });
+  };
 
   changeHandler = event => {
-    this.setState({ ...this.state, [event.target.name]: event.target.value })
-  }
+    this.setState({ ...this.state, [event.target.name]: event.target.value });
+  };
 
   render() {
     return (
@@ -283,8 +286,8 @@ class Contact extends React.Component {
           </Col>
         </Row>
       </Container>
-    )
+    );
   }
 }
 
-export default Contact
+export default Contact;

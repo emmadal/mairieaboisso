@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import {
   Carousel,
   CarouselCaption,
@@ -6,8 +6,8 @@ import {
   CarouselItem,
   View,
   Container
-} from "mdbreact"
-import "./styles/carousel.css"
+} from "mdbreact";
+import "./styles/carousel.css";
 
 export const CarouselPage = () => {
   return (
@@ -76,5 +76,5 @@ export const CarouselPage = () => {
         </CarouselInner>
       </Carousel>
     </Container>
-  )
-}
+  );
+};
