@@ -198,10 +198,10 @@ export default class Menu extends React.Component {
                     </DropdownItem>
                     <DropdownItem className="text-success">
                       <NavLink
-                        href="/activites-cuturelles"
+                        href="/jumellage"
                         className="text-success font-weight-bold"
                       >
-                        Activites culturelles
+                        Jumellage
                       </NavLink>
                     </DropdownItem>
                   </DropdownMenu>

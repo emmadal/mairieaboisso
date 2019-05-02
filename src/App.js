@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HistoriqueVille from "./components/pages/HistoriqueVille";
 import DecouvrirVille from "./components/pages/DecouvrirVille";
 import Projets from "./components/pages/Projets";
-import Cultures from "./components/pages/Cultures";
+import Jumellage from "./components/pages/Jumellage";
 import Maire from "./components/pages/Maire";
 import Municipalite from "./components/pages/Municipalite";
 import ConseilMunicipal from "./components/pages/ConseilMunicipal";
@@ -26,12 +26,16 @@ import Autorisation from "./components/pages/Autorisation";
 import FooterPage from "./components/FooterPage";
 import Banniere from "./components/Banniere";
 import InfosPage from "./components/InfosPage";
+import FlashInfos from './components/FlashInfos'
 
 function App() {
   return (
     <BrowserRouter>
       <div>
-        <Banniere />
+        <div>
+          <Banniere />
+          <FlashInfos />
+        </div>
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/historique-aboisso" component={HistoriqueVille} />
@@ -54,7 +58,7 @@ function App() {
           <Route path="/a-la-une" component={InfosPage} />
           <Route path="/adresses-utiles" component={AdressesUtiles} />
           <Route path="/presentation" component={Presentation} />
-          <Route path="/activites-cuturelles" component={Cultures} />
+          <Route path="/jumellage" component={Jumellage} />
           <Route path="/demande-autorisation" component={Autorisation} />
           <Route component={ErrorPage404} />
         </Switch>

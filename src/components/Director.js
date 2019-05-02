@@ -1,22 +1,22 @@
-import React from "react"
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
+import React from "react";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 class Director extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       modal: false
-    }
-    this.toggle = this.toggle.bind(this)
+    };
+    this.toggle = this.toggle.bind(this);
   }
 
   toggle() {
     this.setState({
       modal: !this.state.modal
-    })
+    });
   }
   componentDidMount() {
-    this.toggle()
+    this.toggle();
   }
 
   render() {
@@ -51,7 +51,7 @@ class Director extends React.Component {
                 </div>
                 <div className="col-md">
                   <img
-                    src={require("../components/img/jeremy.png")}
+                    src={require("../components/img/ngouan.jpg")}
                     alt="maire"
                     className="float-right img-fluid img-thumbnail"
                   />
@@ -66,8 +66,8 @@ class Director extends React.Component {
           </ModalFooter>
         </Modal>
       </div>
-    )
+    );
   }
 }
 
-export default Director
+export default Director;

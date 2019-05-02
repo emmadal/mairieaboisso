@@ -13,10 +13,10 @@ import classnames from "classnames";
 import { servicesmunicipaux } from "../containers/servicesmunicipaux";
 
 export default function ServicesMuncipaux() {
-  const [activetab, useActiveTab] = useState("")
+  const [activetab, useActiveTab] = useState("");
 
   function toggle(tab) {
-    if (activetab !== tab) useActiveTab(tab)
+    if (activetab !== tab) useActiveTab(tab);
   }
 
   return (
@@ -50,9 +50,7 @@ export default function ServicesMuncipaux() {
                 <TabPane tabId={i.id} key={key}>
                   <Row>
                     <Col sm="12">
-                      <p className="text-justify descriptn my-5">
-                        { i.id === '3' ?  i.info + i.id : i.info }
-                      </p>
+                      <p className="text-justify descriptn my-5">{i.info}</p>
                     </Col>
                   </Row>
                 </TabPane>

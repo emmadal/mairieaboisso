@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "mdbreact"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
-import firebase from "../containers/firebase"
+//import firebase from "../containers/firebase"
 import { contact } from "../containers/mairie"
 
 class Contact extends React.Component {
@@ -52,7 +52,7 @@ class Contact extends React.Component {
   }
 
   sendData = async event => {
-    const res = await firebase.database().ref("Message")
+    /* const res = await firebase.database().ref("Message")
     res.push({
       Nom: this.state.fname,
       Prenom: this.state.lname,
@@ -60,7 +60,7 @@ class Contact extends React.Component {
       message: this.state.message,
       contact: this.state.num,
       "Date du message": Date()
-    })
+    }) */
     this.setState({
       fname: "",
       lname: "",
