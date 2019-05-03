@@ -4,9 +4,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 //import firebase from "../containers/firebase"
 import { contact } from "../containers/mairie";
-const MongoClient = require("mongodb").MongoClient;
-
-const url = `mongodb://theripper:billgates225@ds121343.mlab.com:21343/mairieaboisso`;
 
 class Contact extends React.Component {
   constructor(props) {

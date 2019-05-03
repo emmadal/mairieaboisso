@@ -1,4 +1,4 @@
-export const techniques = [
+export const socioculturels = [
   {
     id: 1,
     title: "Les autorisations de manifestations publiques.",

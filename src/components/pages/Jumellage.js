@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "mdbreact";
+import { Container } from "mdbreact";
 
 export default function Jumellage() {
   return (
