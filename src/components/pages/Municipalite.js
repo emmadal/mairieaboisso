@@ -1,5 +1,5 @@
-import React from "react"
-import { municipalite, membres } from "../containers/municipalite"
+import React from "react";
+import { municipalite, membres } from "../containers/municipalite";
 import {
   Container,
   Row,
@@ -8,8 +8,9 @@ import {
   MDBCardBody,
   MDBCardImage,
   MDBCardTitle,
-  MDBCardText
-} from "mdbreact"
+  MDBCardText,
+  MDBCardFooter
+} from "mdbreact";
 
 export default function Municipalite() {
   return (
@@ -75,6 +76,7 @@ export default function Municipalite() {
                       {i.attribution}
                     </MDBCardText>
                   </MDBCardBody>
+                  <MDBCardFooter className="text-center"> {i.role} </MDBCardFooter>
                 </MDBCard>
               ))}
             </div>
@@ -82,5 +84,5 @@ export default function Municipalite() {
         </Row>
       </Container>
     </div>
-  )
+  );
 }

@@ -9,7 +9,7 @@ export const maire = [
   },
   {
     id: 3,
-    text: `En tant qu’agent de l'État, le maire représente le pouvoir exécutif auprès des populations de la commune, mais exerce sous l’autorité du Préfet de département.`
+    text: `En tant qu’agent de l'État, le maire représente le pouvoir exécutif auprès des populations de la commune, mais exerce sous l’autorité du Préfet.`
   },
   {
     id: 4,

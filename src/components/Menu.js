@@ -37,7 +37,7 @@ export default class Menu extends React.Component {
               ACCEUIL
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
+            <Collapse isOpen={this.state.isOpen} navbar >
               <Nav className="ml-auto" navbar>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle

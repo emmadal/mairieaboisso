@@ -1,6 +1,11 @@
-import React from "react"
-import { Container, Row, Col } from "mdbreact"
-import { conseilmunicipal, attributions } from '../containers/conseilmunicipal'
+import React from "react";
+import { Container, Row, Col } from "mdbreact";
+import { Table } from "reactstrap";
+import {
+  conseilmunicipal,
+  attributions,
+  conseillers
+} from "../containers/conseilmunicipal";
 
 export default function ConseilMunicipal() {
   return (
@@ -14,24 +19,54 @@ export default function ConseilMunicipal() {
       <Container>
         <Row>
           <Col sm="12">
-            {
-              conseilmunicipal.map((i, key) =>(
-                <p className="text-justify descriptn" key={key}> {i.info} </p>
-              ))
-            }
+            {conseilmunicipal.map((i, key) => (
+              <p className="text-justify descriptn" key={key}>
+                {" "}
+                {i.info}{" "}
+              </p>
+            ))}
           </Col>
         </Row>
         <Row>
           <Col sm="12">
-            <h5 className="h5-responsive text-center mytitle mt-4"> Les attributions du Conseil Municipal</h5>
-            {
-              attributions.map((i, key) =>(
-                <p className="mt-4 text-justify descriptn"key={key}> {i.info} </p>
-              ))
-            }
+            <h5 className="h5-responsive text-center mytitle mt-4">
+              {" "}
+              Les attributions du Conseil Municipal
+            </h5>
+            {attributions.map((i, key) => (
+              <p className="mt-4 text-justify descriptn" key={key}>
+                {" "}
+                {i.info}{" "}
+              </p>
+            ))}
+          </Col>
+        </Row>
+        <Row>
+          <Col sm="12">
+            <details>
+              <summary className="h5-responsive text-center mytitle my-3">
+                Listes des conseillers Municipaux
+              </summary>
+              <Table bordered hover responsive className="my-3">
+                <thead>
+                  <tr>
+                    <th className="text-center">#</th>
+                    <th className="text-center">Nom et Prenoms</th>
+                  </tr>
+                </thead>
+                {conseillers.map((i, key) => (
+                  <tbody key={key}>
+                    <tr>
+                      <th scope="row"> {i.id} </th>
+                      <th> {i.name} </th>
+                    </tr>
+                  </tbody>
+                ))}
+              </Table>
+            </details>
           </Col>
         </Row>
       </Container>
     </div>
-  )
+  );
 }

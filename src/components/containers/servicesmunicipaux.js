@@ -25,3 +25,11 @@ export const servicesmunicipaux = [
     info: `Les services Techniques sont placés sous la responsabilité du chef de service technique dont les attributions sont les suivantes : organiser au plan structurel et fonctionnel le services techniques - diriger, supervise et contrôle les activités des services techniques - réaliser les études sur la stratégie d’équipement de la commune - participer à la réalisation des dossiers de recherche de financement - participer à l’élaboration du programme triennal - assurer la gestion des plans d’urbanismes, d’aménagement et d’occupation de la commune  - contribuer à la mobilisation des recettes communales - assurer la protection et le suivi des cahiers de charge des acquisitions, prestations techniques et travaux - proposer les services publics urbains à privatiser - assurer l’application et le suivi du volet technique des conventions et contrat de location, de gestion, d’affermage, de concession des services publics - assurer l’application des règlements de police municipale relatifs à la divagation des animaux, au domaine, aux constructions et urbanisme, à la circulation urbaine, au transport, inhumation et exhumation des corps ainsi qu’aux cimetières.`
   }
 ];
+
+export const servicesmunicipauxinfos = [
+  {
+    id: 1,
+    textinfo:
+      "Les projets municipaux ne peuvent être mis en place que grâce aux services municipaux, car eux aussi sont au service des habitants. La mission principale des services municipaux est de faire vivre la commune, d’œuvrer dans l’intérêt de la ville et des  habitants. Les élus qui doivent prendre les décisions pour la commune sont entourés d’une équipe composée de cadres, de techniciens et agents chargés de les aider dans la gestion de la commune. Certains services sont directement tournés vers le public alors que d’autres, rouages souvent essentiels dans l’organisation et l’activité d’une mairie, sont dans l’ombre, tels que les services administratifs, socio-culturels, financiers et techniques ."
+  }
+];

@@ -39,7 +39,7 @@ export const economies = [
     id: 3,
     title: "Agriculture",
     text:
-      "La Commune d’Aboisso est située dans une zone dont la pluviométrie est assez élévée. Cela favorise l’exploitation des cultures de rente (hévéa, palmier à huile, cacao…). A ce titre, la ville d’Aboisso est située dans un département qui regorge plusieurs unités agro-industrielles. On peut citer entre autres les industries de transformation de palmier à huile (Palmci, Coopalem, Dekel oil) et d’hévéas (SCC, SAPH) ainsi que quelques unités villageoises."
+      "La Commune d’Aboisso est située dans une zone dont la pluviométrie est assez élévée. Cela favorise l’exploitation des cultures de rente (hévéa, palmier à huile, cacao…). A ce titre, la ville d’Aboisso est située dans une Commune qui regorge plusieurs unités agro-industrielles. On peut citer entre autres les industries de transformation de palmier à huile (Palmci, Coopalem, Dekel oil) et d’hévéas (SCC, SAPH) ainsi que quelques unités villageoises."
   },
   {
     id: 4,

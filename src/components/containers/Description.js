@@ -12,7 +12,7 @@ export const description = [
          {
            id: 3,
            text:
-             "La Commune d'Aboisso est situé au Sud-Est de la Côte d'Ivoire, plus précisément à 116 Km d'Abidjan et à 60 Km de la frontière du Ghana. En 1961, par la loi n° 61 - 4 du 4 janvier 1961 et le décret du 3 janvier déterminant le nombre et les limites territoriales des sous - préfectures de la Côte d 'Ivoire, Aboisso fut érigée en sous-préfecture. Elle a été érigée en commune le 9 janvier 1978 par la loi n° 78-07. Elle est devenue chef lieu de région du Sud Comoé depuis le 15 janvier 1997 par le décret n° 97-19. La Commune d'Aboisso couvre une superficie de 4662, 1713 Km². Comme l 'indique la figure 1, il est limité : au Nord, par les départements d'Abengourou et d'Alépé au Sud, par le département d'Adiaké à l'Est, par la république du Ghana à l'Ouest, par le département de Grand-Bassam"
+             "La Commune d'Aboisso est situé au Sud-Est de la Côte d'Ivoire, plus précisément à 116 Km d'Abidjan et à 60 Km de la frontière du Ghana. En 1961, par la loi n° 61 - 4 du 4 janvier 1961 et le décret du 3 janvier déterminant le nombre et les limites territoriales des sous - préfectures de la Côte d 'Ivoire, Aboisso fut érigée en sous-préfecture. Elle a été érigée en commune le 9 janvier 1978 par la loi n° 78-07. Elle est devenue chef lieu de région du Sud Comoé depuis le 15 janvier 1997 par le décret n° 97-19. La Commune d'Aboisso couvre une superficie de 4662, 1713 Km². Comme l 'indique la figure 1, il est limité : au Nord, par les Communes d'Abengourou et d'Alépé au Sud, par la Commune d'Adiaké à l'Est, par la république du Ghana à l'Ouest, par la Commune de Grand-Bassam"
          },
          {
            id: 4,
@@ -22,7 +22,7 @@ export const description = [
          {
            id: 5,
            textclimat:
-             "Le département d'Aboisso bénéficie d'un climat chaud et pluvieux de type équatorial (climat attiéen). Il se caractérise par l'abondance des précipitations avec une hauteur moyenne d'environ 1500 mm de pluie sur les dix dernières années. Il se présente par une forte humidité atmosphérique (moyenne annuelle 85%), par des températures élevées mais pas excessives, constantes tout le long de l'année (avec une moyenne de 25°7) et par de faibles amplitudes thermiques inférieures à 5°C. La durée de l'ensoleillement varie en moyenne entre 1500 et 2000 h/an. Le climat est rythmé par 4 saisons de durées inégales. Le régime pluviométrique est de type bimodal avec deux (2) périodes arrosées, insérant 2 périodes de faible pluviosité appelées saisons sèches.  Autrefois bien marquées et régulières, les saisons sont perturbées ces dernières décennies. Toutefois, il convient de distinguer le découpage ci-après:"
+             "La Commune d'Aboisso bénéficie d'un climat chaud et pluvieux de type équatorial (climat attiéen). Il se caractérise par l'abondance des précipitations avec une hauteur moyenne d'environ 1500 mm de pluie sur les dix dernières années. Il se présente par une forte humidité atmosphérique (moyenne annuelle 85%), par des températures élevées mais pas excessives, constantes tout le long de l'année (avec une moyenne de 25°7) et par de faibles amplitudes thermiques inférieures à 5°C. La durée de l'ensoleillement varie en moyenne entre 1500 et 2000 h/an. Le climat est rythmé par 4 saisons de durées inégales. Le régime pluviométrique est de type bimodal avec deux (2) périodes arrosées, insérant 2 périodes de faible pluviosité appelées saisons sèches.  Autrefois bien marquées et régulières, les saisons sont perturbées ces dernières décennies. Toutefois, il convient de distinguer le découpage ci-après:"
          },
          {
            id: 5,
@@ -37,12 +37,12 @@ export const description = [
          {
            id: 7,
            texteco:
-             "Les activités économiques dans le département d'Aboisso sont dominées par les cultures de rentes, principalement les cultures pérennes, ce qui fait d'Aboisso une zone agricole."
+             "Les activités économiques dans la Commune d'Aboisso sont dominées par les cultures de rentes, principalement les cultures pérennes, ce qui fait d'Aboisso une zone agricole."
          },
          {
            id: 8,
            textagricultures:
-             "La Commune d’Aboisso est située dans une zone dont la pluviométrie est assez élévée. Cela favorise l’exploitation des cultures de rente (hévéa, palmier à huile, cacao…). A ce titre, la ville d’Aboisso est située dans un département qui regorge plusieurs unités agro-industrielles. On peut citer entre autres les industries de transformation de palmier à huile (Palmci, Coopalem, Dekel oil) et d’hévéas (SCC, SAPH) ainsi que quelques unités villageoises."
+             "La Commune d’Aboisso est située dans une zone dont la pluviométrie est assez élévée. Cela favorise l’exploitation des cultures de rente (hévéa, palmier à huile, cacao…). A ce titre, la ville d’Aboisso est située dans une Commune qui regorge plusieurs unités agro-industrielles. On peut citer entre autres les industries de transformation de palmier à huile (Palmci, Coopalem, Dekel oil) et d’hévéas (SCC, SAPH) ainsi que quelques unités villageoises."
          },
          {
            id: 9,

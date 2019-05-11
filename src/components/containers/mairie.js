@@ -4,7 +4,7 @@ export const mairie = [
     info:
       "La mairie d Aboisso est située en face de préfecture. Au sein de la dite mairie on y trouve le cabinet du maire, les bureaux des adjoints au maire, des conseillers municipaux, le secrétaire général et les différentes directions. La Mairie dispose d’une salle de mariage, d’une salle de réunion et d’une salle de la fête."
   }
-]
+];
 
 export const cabinet = [
   {
@@ -12,7 +12,7 @@ export const cabinet = [
     info:
       "Le Cabinet du maire est une organisation mue par la recherche de l’efficacité et la rationalité. C’est l’organe de décision et de gestion de la commune. Il est structuré comme suite :"
   }
-]
+];
 
 export const cabinetservices = [
   {
@@ -47,7 +47,7 @@ export const cabinetservices = [
     id: 8,
     info: "Une plate-forme des services rattachés au cabinet du maire"
   }
-]
+];
 
 export const secretariat = [
   {
@@ -55,7 +55,7 @@ export const secretariat = [
     info:
       "Le secrétariat General est l’organe administratif de la mairie. Il comprend :"
   }
-]
+];
 export const secretariatservices = [
   {
     id: 1,
@@ -69,7 +69,7 @@ export const secretariatservices = [
     id: 3,
     info: "Les services rattachés au secrétariat General "
   }
-]
+];
 
 export const direction = [
   {
@@ -77,7 +77,7 @@ export const direction = [
     info:
       "A côté du Secrétariat General de la mairie nous avons certaines directions :"
   }
-]
+];
 
 export const directionservices = [
   {
@@ -100,7 +100,7 @@ export const directionservices = [
     id: 5,
     info: "La Direction des Services du développement Local"
   }
-]
+];
 
 export const contact = [
   {
@@ -115,127 +115,131 @@ export const contact = [
     id: 3,
     name: "Téléphone : 21 30 59 34 / 21 30 41 23 / 21 30 68 15"
   }
-]
+];
 
 export const conseillers = [
   {
-    id: 1,
-    name: "BILE KASSI ALPHONSE"
+    id:1,
+    name:"N’GOUAN JEREMIE"
   },
   {
     id: 2,
-    name: "BENIE KAKOU JEAN PAUL"
+    name: "BILE KHASSY ALPHONSE "
   },
   {
     id: 3,
-    name: "KOFFI EBOUE EMILIENNE EPSE KADJA"
+    name: "BENIE KAKOU JEAN PAUL"
   },
   {
     id: 4,
-    name: "ADJAFI ANGELINE EPSE NANGAH"
+    name: "KOFFI EKUE EMILIENNE"
   },
   {
     id: 5,
-    name: "DOUMBIA DAOUDA"
+    name: "ADJAFFI ANGELINE"
   },
   {
     id: 6,
-    name: "AGBIA GNAMIEN LUCIEN"
+    name: "DOUMBIA DAOUDA"
   },
   {
     id: 7,
-    name: "KASSI DAMO JULIEN"
+    name: "AGBIA N’GAMAN LUCIEN"
   },
   {
     id: 8,
-    name: "SANHOU DJEDOU"
+    name: "KASSI DAMOH JULIEN SYLVAIN"
   },
   {
     id: 9,
-    name: "N'GUESSAN KOUAME"
+    name: "SANHOU DJEDOU"
   },
   {
     id: 10,
-    name: "AMANGOUA ATCHO ALBERT"
+    name: "N’GUESSAN KOUAME"
   },
   {
     id: 11,
-    name: "SANGARE ZOUMANA"
+    name: "AMANGOUA ATCHAUD ALBERT"
   },
   {
     id: 12,
-    name: "NIANGBA DJORO EMMA"
+    name: "ZOUMANA SANGARE"
   },
   {
     id: 13,
-    name: "KOFFI ANOH CAMUS"
+    name: "YANGBA DIORO EMMA JACQUELINE GOMON"
   },
   {
     id: 14,
-    name: "BOLBA KOUTOUA"
+    name: "KOFFI ANO N’GUESSAN"
   },
   {
     id: 15,
-    name: "AKA EDJOHILI ETIENNE"
+    name: "BORBA KOUTOUA"
   },
   {
     id: 16,
-    name: "SORO KOLOTCHENEMA"
+    name: "AKA EDJOLOHI ETIENNE"
+  },
+  {
+    id: 16,
+    name: "SORO KOLOTCHELEMA ROSE"
   },
   {
     id: 17,
-    name: "KOULOU JEAN YVES"
+    name: "COULOUD JEAN YVES HERVE"
   },
   {
     id: 18,
-    name: "MALAN ADJOBA AGNIMAN"
+    name: "MALAN AGNIMAN ADJOBA"
   },
   {
     id: 19,
-    name: "OUATTARA MAKANFI"
+    name: "OUATTARA MAKAFIN DITE MARIAME"
   },
   {
     id: 20,
-    name: "GUYE HAMADOU"
+    name: "GUEYE AMADOU BOUBAKAR"
   },
   {
     id: 21,
-    name: "BOSSOMBRA KASSI"
+    name: "BONSSOMBRA KASSI"
   },
   {
     id: 22,
-    name: "ANOH HAMADOU"
+    name: "CISSE ABOUBAKARI"
   },
   {
     id: 23,
-    name: "MALAN AGNIMAN MARGUERITE"
+    name: "BROU EDGAR VINCENT"
   },
   {
     id: 24,
-    name: "YAO KOFFI"
+    name: "DIAKITE FEDE"
   },
   {
     id: 25,
-    name: "DIALLO SEKOU"
+    name: "KONE ABIBA EPSE COULIBALY"
   },
   {
     id: 26,
-    name: "KOUADIO N'GUESSAN ROLAND"
+    name: "MAMADOU KANO"
   },
   {
     id: 27,
-    name: "SATCHE MARIAM EPSE N'GUESSAN"
+    name: "ABDOULAYE TRAORE"
   },
   {
     id: 28,
-    name: "BILE ALLI"
+    name: "AKA TCHEKOU"
   },
   {
     id: 29,
-    name: "COLMAN AKA AYA"
+    name: "KOMAN OBBA CHRISTINE"
   },
   {
     id: 30,
-    name: "FIAN KACOU SAMUEL"
+    name: "EPKONON KOUAO JEAN CLAUDE"
   }
-]
+];

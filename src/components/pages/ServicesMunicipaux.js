@@ -10,7 +10,10 @@ import {
   Col
 } from "reactstrap";
 import classnames from "classnames";
-import { servicesmunicipaux } from "../containers/servicesmunicipaux";
+import {
+  servicesmunicipaux,
+  servicesmunicipauxinfos
+} from "../containers/servicesmunicipaux";
 
 export default function ServicesMuncipaux() {
   const [activetab, useActiveTab] = useState("");
@@ -28,6 +31,16 @@ export default function ServicesMuncipaux() {
         </h3>
       </Container>
       <Container>
+        <Row>
+          <Col sm="12">
+            {servicesmunicipauxinfos.map((i, key) => (
+              <p key={key} className="text-justify descriptn">
+                {" "}
+                {i.textinfo}{" "}
+              </p>
+            ))}
+          </Col>
+        </Row>
         <Row className="my-4">
           <Col sm="12">
             <Nav tabs>
