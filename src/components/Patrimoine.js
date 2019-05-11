@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import {
   TabContent,
   TabPane,
@@ -7,25 +7,25 @@ import {
   NavLink,
   Row,
   Col
-} from "reactstrap"
-import classnames from "classnames"
-import { description } from "./containers/Description"
+} from "reactstrap";
+import classnames from "classnames";
+import { description } from "./containers/Description";
 
 export default class Patrimoine extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.toggle = this.toggle.bind(this)
+    this.toggle = this.toggle.bind(this);
     this.state = {
       activeTab: ""
-    }
+    };
   }
 
   toggle(tab) {
     if (this.state.activeTab !== tab) {
       this.setState({
         activeTab: tab
-      })
+      });
     }
   }
   render() {
@@ -41,7 +41,7 @@ export default class Patrimoine extends React.Component {
                       active: this.state.activeTab === "1"
                     })}
                     onClick={() => {
-                      this.toggle("1")
+                      this.toggle("1");
                     }}
                   >
                     <p className="mytitle font-weight-bold">
@@ -56,7 +56,7 @@ export default class Patrimoine extends React.Component {
                       active: this.state.activeTab === "2"
                     })}
                     onClick={() => {
-                      this.toggle("2")
+                      this.toggle("2");
                     }}
                   >
                     <p className="mytitle font-weight-bold">Donnees humaines</p>
@@ -69,7 +69,7 @@ export default class Patrimoine extends React.Component {
                       active: this.state.activeTab === "3"
                     })}
                     onClick={() => {
-                      this.toggle("3")
+                      this.toggle("3");
                     }}
                   >
                     <p className="mytitle font-weight-bold">
@@ -84,7 +84,7 @@ export default class Patrimoine extends React.Component {
                       active: this.state.activeTab === "4"
                     })}
                     onClick={() => {
-                      this.toggle("4")
+                      this.toggle("4");
                     }}
                   >
                     <p className="mytitle font-weight-bold">Infrastructures</p>
@@ -97,7 +97,7 @@ export default class Patrimoine extends React.Component {
                       active: this.state.activeTab === "5"
                     })}
                     onClick={() => {
-                      this.toggle("5")
+                      this.toggle("5");
                     }}
                   >
                     <p className="mytitle font-weight-bold">
@@ -250,6 +250,6 @@ export default class Patrimoine extends React.Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }

@@ -1,7 +1,7 @@
-import React from "react"
-import { description } from "../containers/Description"
-import "../styles/historiqueville.css"
-import Patrimoine from "../Patrimoine"
+import React from "react";
+import { description } from "../containers/Description";
+import "../styles/historiqueville.css";
+import Patrimoine from "../Patrimoine";
 
 export default function DecouvrirVille() {
   return (
@@ -28,5 +28,5 @@ export default function DecouvrirVille() {
         </div>
       </div>
     </div>
-  )
+  );
 }

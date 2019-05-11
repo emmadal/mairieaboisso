@@ -32,7 +32,7 @@ export const description = [
          {
            id: 6,
            textpopulation:
-             "La population du département d'Aboisso est de 222 053 habitants (Recensement Général de la Population et de l'Habitat de l'année 1998), repartis dans 62 villages sur une superficie de 4662,1713 Km², soit une densité de population de 48 habitants/Km² équivalent à celle trouvée au niveau national. La forte pression démographique est due à la concentration de la main d'oeuvre agricole autour des importantes entreprises agricoles et agro-industrielles. Le département d'Aboisso a une population majoritaire autochtone que sont les Agni appartenant au royaume Sanwi. A côté de cette population, il y a une population très hétérogène composé d 'allochtones, dont les Baoulé, et d'allogènes: Burkinabés, Ghanéens, Togolais, Nigériens et Nigérians qui s 'adonnent à diverses activités économiques dans la région."
+             "La population de la commune d'Aboisso est 86 115 habitants (Recensement Général de la Population et de l'Habitat de l'année 2014). La forte pression démographique est due à la concentration de la main d'oeuvre agricole autour des importantes entreprises agricoles et agro-industrielles. commune d'Aboisso a une population majoritaire autochtone que sont les Agni appartenant au royaume Sanwi. A côté de cette population, il y a une population très hétérogène composé d 'allochtones, dont les Baoulé, et d'allogènes: Burkinabés, Ghanéens, Togolais, Nigériens et Nigérians qui s 'adonnent à diverses activités économiques dans la région."
          },
          {
            id: 7,
@@ -106,4 +106,4 @@ export const description = [
            id: 21,
            textsports: `La Commune Aboisso a plusieurs centres de formation de football, une equipe de football, L’Etoile du Sanwi (EDUS) qui participe au championnat de 3e Division Ivoirien, le club phare de football de la commune d’Aboisso et d’un beau boulodrome Jérémie N'Gouan.`
          }
-       ]
+       ];
