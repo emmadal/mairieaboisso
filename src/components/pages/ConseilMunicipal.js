@@ -42,7 +42,7 @@ export default function ConseilMunicipal() {
           </Col>
         </Row>
         <Row>
-          <Col sm="12">
+          <Col sm="4">
             <details>
               <summary className="h5-responsive text-center mytitle my-3">
                 Listes des conseillers Municipaux
@@ -50,15 +50,15 @@ export default function ConseilMunicipal() {
               <Table bordered hover responsive className="my-3">
                 <thead>
                   <tr>
-                    <th className="text-center">#</th>
-                    <th className="text-center">Nom et Prenoms</th>
+                    <th className="text-center font-weight-bold">#</th>
+                    <th className="text-center font-weight-bold">Nom et Prenoms</th>
                   </tr>
                 </thead>
                 {conseillers.map((i, key) => (
                   <tbody key={key}>
                     <tr>
-                      <th scope="row"> {i.id} </th>
-                      <th> {i.name} </th>
+                      <th scope="row" className="text-center"> {i.id} </th>
+                      <th className="text-center"> {i.name} </th>
                     </tr>
                   </tbody>
                 ))}

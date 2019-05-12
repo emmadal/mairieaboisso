@@ -9,7 +9,7 @@ export default function Banniere() {
         <div className="row mybanniere">
           <div className="col-md-3 text-center">
             <img
-              src={require("../components/img/BANNIERE.jpg")}
+              src={require("../components/img/BANNIERE2.jpg")}
               alt="banniere"
               className="mybanniere text-center"
             />

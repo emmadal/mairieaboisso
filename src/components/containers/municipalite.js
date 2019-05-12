@@ -23,14 +23,14 @@ export const membres = [
   {
     id: 4,
     nom: "KOFFI EKUE EMILIENNE",
-    attribution: "3E ADJOINT AU MAIRE",
+    attribution: "3E ADJOINTE AU MAIRE",
     role:"chargée des services administratifs et de la formation technique",
     img: require("../img/3eadjoint.webp")
   },
   {
     id: 5,
     nom: "NANGA ANGELINE",
-    attribution: "4e ADJOINT AU MAIRE",
+    attribution: "4e ADJOINTE AU MAIRE",
     role:"chargée de la formation et de l’autonomisation des femmes",
     img: require("../img/4eadjoint.webp")
   },
