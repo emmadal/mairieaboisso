@@ -113,7 +113,7 @@ export const contact = [
   },
   {
     id: 3,
-    name: "Téléphone : 21 30 59 34 / 21 30 41 23 / 21 30 68 15"
+    name: "Téléphone : 21 30 41 23 / 21 30 68 15"
   }
 ];
 
