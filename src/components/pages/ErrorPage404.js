@@ -1,27 +1,21 @@
 import React from "react"
+import { Container, Row, Col } from 'mdbreact'
 
 export default function ErrorPage404() {
   return (
     <div>
-      <div className="container">
-        <h3 className="mt-5 mb-5 text-green h3-responsive mytitle">
+      <Container>
+        <h1 className="mt-5 mb-5 text-center text-green mytitle" style={{fontSize:'9rem'}}>
           {" "}
-          Aucune page trouve !
-        </h3>
-        <div className="row">
-          <div className="col-md-12">
-            <iframe
-              title="error"
-              src="https://giphy.com/embed/eWJKz0mvZwbL2"
-              width="480"
-              height="240"
-              frameBorder="0"
-              class="giphy-embed"
-              allowFullScreen
-            />
-          </div>
-        </div>
-      </div>
+          Oops!
+        </h1>
+        <Row>
+          <Col sm="12">
+            <p className="text-center text-green mytitle"> 404 - PAGE NON TROUVEE</p>
+            <p className="text-center text-green mytitle"> La page que vous essayez de chercher est introuvable ou peut etre a ete supprimee.</p>
+          </Col>
+        </Row>
+      </Container>
     </div>
   )
 }
