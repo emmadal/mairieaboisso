@@ -18,10 +18,10 @@ export default function Banniere() {
           </div>
           <div className="col-md-7 text-center">
             <h3 className="h3-responsive textbaniere">
-              BIENVENUE A LA MAIRIE D'ABOISSO
+              BIENVENUE DANS LA COMMUNE D'ABOISSO
             </h3>
             <h5 className="h5-responsive textbaniere">
-              Le vrai changement avec Jeremie Alfred N'Gouan
+              ABOISSO, ville emergente
             </h5>
           </div>
           <div className="col-md-2 text-center">
