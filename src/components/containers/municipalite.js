@@ -29,7 +29,7 @@ export const membres = [
   },
   {
     id: 5,
-    nom: "NANGA ANGELINE",
+    nom: "ADJAFFI ANGELINE",
     attribution: "4e ADJOINTE AU MAIRE",
     role:"chargée de la formation et de l’autonomisation des femmes",
     img: require("../img/4eadjoint.webp")
