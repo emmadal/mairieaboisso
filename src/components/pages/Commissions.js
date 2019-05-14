@@ -32,7 +32,7 @@ export default function Commissions() {
           <Col sm="3">
             <details>
               <summary className="h6-responsive text-center mytitle my-3">
-                commission des Affaires Economiques et Financières
+                Commission des Affaires Economiques et Financières
               </summary>
               <Table bordered hover responsive className="my-3">
                 <thead>
@@ -56,7 +56,7 @@ export default function Commissions() {
           <Col sm="3">
             <details>
               <summary className="h6-responsive text-center mytitle my-3">
-                commission des Affaires Sociales, Culturelles et la Promotion
+                Commission des Affaires Sociales, Culturelles et la Promotion
                 Humaine
               </summary>
               <Table bordered hover responsive className="my-3">
@@ -105,7 +105,7 @@ export default function Commissions() {
           <Col sm="3">
             <details>
               <summary className="h6-responsive text-center mytitle my-3">
-                Commission Foncier
+                Commission du Foncier
               </summary>
               <Table bordered hover responsive className="my-3">
                 <thead>
