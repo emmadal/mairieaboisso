@@ -32,13 +32,13 @@ export default function Commissions() {
           <Col sm="3">
             <details>
               <summary className="h6-responsive text-center mytitle my-3">
-                Commission des Affaires Economiques et Financières
+                Commission des Affaires Economiques, Financières et Domaniales
               </summary>
               <Table bordered hover responsive className="my-3">
                 <thead>
                   <tr>
                     <th className="text-center">#</th>
-                    <th className="text-center">Nom et Prenoms</th>
+                    <th className="text-center">Nom et Prénoms</th>
                   </tr>
                 </thead>
                 {comEco.map((i, key) => (
@@ -56,14 +56,13 @@ export default function Commissions() {
           <Col sm="3">
             <details>
               <summary className="h6-responsive text-center mytitle my-3">
-                Commission des Affaires Sociales, Culturelles et la Promotion
-                Humaine
+                Commission des Affaires Sociales, Culturelles et de Promotion Humaine
               </summary>
               <Table bordered hover responsive className="my-3">
                 <thead>
                   <tr>
                     <th className="text-center">#</th>
-                    <th className="text-center">Nom et Prenoms</th>
+                    <th className="text-center">Nom et Prénoms</th>
                   </tr>
                 </thead>
                 {comaffaires.map((i, key) => (
@@ -81,13 +80,13 @@ export default function Commissions() {
           <Col sm="3">
             <details>
               <summary className="h6-responsive text-center mytitle my-3">
-                Commission Sante et Cadre de Vie
+                Commission Santé et Cadre de Vie
               </summary>
               <Table bordered hover responsive className="my-3">
                 <thead>
                   <tr>
                     <th className="text-center">#</th>
-                    <th className="text-center">Nom et Prenoms</th>
+                    <th className="text-center">Nom et Prénoms</th>
                   </tr>
                 </thead>
                 {comsante.map((i, key) => (
@@ -111,7 +110,7 @@ export default function Commissions() {
                 <thead>
                   <tr>
                     <th className="text-center">#</th>
-                    <th className="text-center">Nom et Prenoms</th>
+                    <th className="text-center">Nom et Prénoms</th>
                   </tr>
                 </thead>
                 {comfoncier.map((i, key) => (

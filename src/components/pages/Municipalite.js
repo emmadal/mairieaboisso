@@ -18,7 +18,7 @@ export default function Municipalite() {
       <Container>
         <h3 className="mt-5 mb-5 text-green h3-responsive mytitle">
           {" "}
-          La Municipalite
+          La Municipalité
         </h3>
       </Container>
       <Container>
@@ -31,7 +31,7 @@ export default function Municipalite() {
             ))}
           </Col>
           <h5 className="h5-responsive mt-3 text-center mytitle">
-            Les membres de la Municipalite
+            Les membres de la Municipalité
           </h5>
           <Col sm="12">
             <div

@@ -1,7 +1,7 @@
 export const servicesmunicipaux = [
   {
     id: "1",
-    title: "Le Secretariat General",
+    title: "Le Secrétariat Général",
     info: `Le Secrétaire Général est le premier responsable de l’administration sous l’autorité du Maire, il chapeaute et coordonne l’ensemble des actions communales et dispose de prérogatives particulièrement étendues et variées. Il chapeaute par ailleurs les activités du cabinet du Maire. 
     Collaborateur direct du Maire et de ses adjoints, il prépare et met en œuvre les décisions du Conseil municipal. Il est le chef de l’administration, il assure la coordination de l’action de l’ensemble des services.
     Le Secrétaire général de Mairie détient des compétences élargies lui permettant d’encadrer, de suivre la gestion administrative et budgétaire de la commune et de conduire des projets ; 

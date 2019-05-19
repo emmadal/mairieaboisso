@@ -21,7 +21,7 @@ export default function Banniere() {
               BIENVENUE DANS LA COMMUNE D'ABOISSO
             </h3>
             <h5 className="h5-responsive textbaniere">
-              ABOISSO, ville emergente
+              ABOISSO, Ville Emergente
             </h5>
           </div>
           <div className="col-md-2 text-center">

@@ -1,7 +1,7 @@
-import React from "react"
-import { Container, Row, Col } from "reactstrap"
-import { Button } from "mdbreact"
-import { civil } from "../containers/civil"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { Button } from "mdbreact";
+import { civil } from "../containers/civil";
 
 export default function EtatCivil() {
   return (
@@ -25,19 +25,7 @@ export default function EtatCivil() {
             </h6>
             <p className="descriptn">{civil[0].concubinage}</p>
           </Col>
-          <Col sm="4">
-            <h5 className="h5-responsive mytitle font-weight-bold">
-              Obtenir une attestation de domicile
-            </h5>
-            <span>
-              <h6 className="font-weight-bold h6-responsive">S’adresser à :</h6>
-              <i className="descriptn">Mairie du domicile</i>
-            </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">
-              Pièces à fournir :
-            </h6>
-            <p className="descriptn">{civil[2].domicile}</p>
-          </Col>
+
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
               Obtenir une carte d’électeur
@@ -51,8 +39,6 @@ export default function EtatCivil() {
             </h6>
             <p className="descriptn">{civil[3].electeur}</p>
           </Col>
-        </Row>
-        <Row>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
               Demander un livret de famille
@@ -67,6 +53,26 @@ export default function EtatCivil() {
               Pièces à fournir :
             </h6>
             <p className="descriptn">{civil[4].livretfamille}</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col sm="4">
+            <h5 className="h5-responsive mytitle font-weight-bold">
+              Déclarer un décès
+            </h5>
+            <span>
+              <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
+              <i className="descriptn"> Mairie du lieu de décès</i>
+            </span>
+            <h6 className="font-weight-bold h6-responsive mt-2">
+              Pièces à fournir :
+            </h6>
+            <p className="descriptn">{civil[13].deces}</p>
+            <h6 className="font-weight-bold h6-responsive mt-2">Délai :</h6>
+            <p className="descriptn">
+              Quinze (15) jours à compter du jour du décès.
+            </p>
           </Col>
           <Col sm="4">
             <h5 className="h5-responsive mytitle font-weight-bold">
@@ -197,8 +203,7 @@ export default function EtatCivil() {
             <span>
               <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
               <i className="descriptn">
-                Mairie du lieu de résidence de l’un des futurs époux ou tout
-                autre lieu sur réquisition du Procureur de la République.
+                Mairie du lieu de résidence de l’un des futurs époux ou tout autre lieu sur réquisition du Procureur de la République.
               </i>
             </span>
             <h6 className="font-weight-bold h6-responsive mt-2">
@@ -208,31 +213,11 @@ export default function EtatCivil() {
               (voir fiche pour la constitution du dossier de mariage)
             </p>
             <h6 className="font-weight-bold h6-responsive mt-2">Tarif :</h6>
-            <p className="descriptn">100.000 F CFA du mercredi au samedi.</p>
+            <p className="descriptn">32 500 FCFA du mercredi au samedi.</p>
             <h6 className="font-weight-bold h6-responsive mt-2">
               Documents délivrés à l’issue du mariage :
             </h6>
             <p className="descriptn">{civil[12].mariagecivil}</p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col sm="12">
-            <h5 className="h5-responsive mytitle font-weight-bold">
-              Déclarer un décès
-            </h5>
-            <span>
-              <h6 className="font-weight-bold h6-responsive">Lieu:</h6>
-              <i className="descriptn"> Mairie du lieu de décès</i>
-            </span>
-            <h6 className="font-weight-bold h6-responsive mt-2">
-              Pièces à fournir :
-            </h6>
-            <p className="descriptn">{civil[13].deces}</p>
-            <h6 className="font-weight-bold h6-responsive mt-2">Délai :</h6>
-            <p className="descriptn">
-              Quinze (15) jours à compter du jour du décès.
-            </p>
           </Col>
         </Row>
         <Row className="mt-5">
@@ -252,5 +237,5 @@ export default function EtatCivil() {
         </Row>
       </Container>
     </div>
-  )
+  );
 }

@@ -61,7 +61,7 @@ export default class Menu extends React.Component {
                         href="/decouvrir-aboisso"
                         className="text-success font-weight-bold"
                       >
-                        Decouvrir la ville
+                        Découvrir la ville
                       </NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
@@ -105,7 +105,7 @@ export default class Menu extends React.Component {
                         href="/municipalite"
                         className="text-success font-weight-bold"
                       >
-                        La Municipalite
+                        La Municipalité
                       </NavLink>
                     </DropdownItem>
                     <DropdownItem className="text-success">
@@ -149,7 +149,7 @@ export default class Menu extends React.Component {
                     caret
                     className="text-white font-weight-bold"
                   >
-                    LES DEMARCHES
+                    DEMARCHES
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
@@ -185,6 +185,34 @@ export default class Menu extends React.Component {
                     caret
                     className="text-white font-weight-bold"
                   >
+                    PROJETS
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/realises"
+                        className="text-success font-weight-bold"
+                      >
+                        Réalisés
+                      </NavLink>
+                    </DropdownItem>
+                    <DropdownItem className="text-success">
+                      <NavLink
+                        href="/encours"
+                        className="text-success font-weight-bold"
+                      >
+                        En cours
+                      </NavLink>
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle
+                    nav
+                    caret
+                    className="text-white font-weight-bold"
+                  >
                     COOPERATION
                   </DropdownToggle>
                   <DropdownMenu right>
@@ -201,7 +229,7 @@ export default class Menu extends React.Component {
                         href="/jumellage"
                         className="text-success font-weight-bold"
                       >
-                        Jumellage
+                        Jumelage
                       </NavLink>
                     </DropdownItem>
                   </DropdownMenu>

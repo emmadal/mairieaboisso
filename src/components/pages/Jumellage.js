@@ -6,7 +6,7 @@ export default function Jumellage() {
     <div>
       <Container>
         <h3 className="mt-5 mb-5 text-green h3-responsive mytitle">
-          Jumellage
+          Jumelage
         </h3>
       </Container>
     </div>
