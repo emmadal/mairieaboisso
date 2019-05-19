@@ -12,7 +12,7 @@ export const description = [
          {
            id: 3,
            text:
-             "La Commune d'Aboisso est situé au Sud-Est de la Côte d'Ivoire, plus précisément à 116 Km d'Abidjan et à 60 Km de la frontière du Ghana. En 1961, par la loi n° 61 - 4 du 4 janvier 1961 et le décret du 3 janvier déterminant le nombre et les limites territoriales des sous - préfectures de la Côte d 'Ivoire, Aboisso fut érigée en sous-préfecture. Elle a été érigée en commune le 9 janvier 1978 par la loi n° 78-07. Elle est devenue chef lieu de région du Sud Comoé depuis le 15 janvier 1997 par le décret n° 97-19. La Commune d'Aboisso couvre une superficie de 4662, 1713 Km². Comme l 'indique la figure 1, il est limité : au Nord, par les Communes d'Abengourou et d'Alépé au Sud, par la Commune d'Adiaké à l'Est, par la république du Ghana à l'Ouest, par la Commune de Grand-Bassam"
+             "La Commune d'Aboisso est située au Sud-Est de la Côte d'Ivoire, plus précisément à 116 Km d'Abidjan et à 60 Km de la frontière du Ghana. En 1961, par la loi n° 61 - 4 du 4 janvier 1961 et le décret du 3 janvier déterminant le nombre et les limites territoriales des sous - préfectures de la Côte d 'Ivoire, Aboisso fut érigée en sous-préfecture. Elle a été érigée en commune le 9 janvier 1978 par la loi n° 78-07. Elle est devenue chef lieu de région du Sud Comoé depuis le 15 janvier 1997 par le décret n° 97-19. La Commune d'Aboisso couvre une superficie de 4662, 1713 Km². Comme l 'indique la figure 1, il est limité : au Nord, par les Communes d'Abengourou et d'Alépé au Sud, par la Commune d'Adiaké à l'Est, par la république du Ghana à l'Ouest, par la Commune de Grand-Bassam"
          },
          {
            id: 4,

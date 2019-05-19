@@ -36,7 +36,7 @@ export default function Commune() {
             </View>
             <h5 className="h5-responsive mt-2 float-left font-weight-bold">
               <Link to="/decouvrir-aboisso" className="black-text">
-                Decouvrir la ville
+                Découvrir la ville
               </Link>
             </h5>
           </div>
@@ -50,7 +50,7 @@ export default function Commune() {
             </View>
             <h5 className="h5-responsive mt-2 float-left font-weight-bold">
               <Link to="/decouvrir-aboisso" className="black-text">
-                La vie economique de la ville
+                La vie économique de la ville
               </Link>
             </h5>
           </div>
