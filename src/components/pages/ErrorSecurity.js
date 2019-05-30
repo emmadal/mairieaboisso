@@ -1,5 +1,5 @@
 import React from 'react'
-import {MBContainer, MDBRow, MDBCol, MDBContainer, MDBBtn} from 'mdbreact'
+import {MDBRow, MDBCol, MDBContainer, MDBBtn} from 'mdbreact'
 import '../styles/errorsecurity.css'
 
 export default function ErrorSecurity() {
@@ -47,7 +47,7 @@ export default function ErrorSecurity() {
               <p>
                 Veuillez contacter le service{" "}
                 <a href="https://www.heroku.com/support" target="_blank" rel="noopener noreferrer">Technique</a> pour
-                les informer du problèmes
+                les informer du problème
               </p>
             </MDBCol>
           </MDBRow>
