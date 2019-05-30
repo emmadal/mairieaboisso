@@ -1,0 +1,8 @@
+._cont{
+    min-height: 100vh;
+    background: #F7F8FB;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center
+}
