@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HistoriqueVille from "./components/pages/HistoriqueVille";
 import DecouvrirVille from "./components/pages/DecouvrirVille";
 import Projets from "./components/pages/Projets";
-import ErrorSecurity from "./components/pages/ErrorSecurity";
+/* import ErrorSecurity from "./components/pages/ErrorSecurity"; */
 import Jumellage from "./components/pages/Jumellage";
 import Maire from "./components/pages/Maire";
 import Municipalite from "./components/pages/Municipalite";
@@ -33,11 +33,13 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <div>{/*  <Banniere />
-          <FlashInfos /> */}</div>
+        <div>
+          <Banniere />
+          <FlashInfos /> 
+        </div>
         <Switch>
-          <Route path="/" component={ErrorSecurity} exact />
-{/*           <Route path="/" component={Home} exact />
+          {/* <Route path="/" component={ErrorSecurity} exact /> */}
+          <Route path="/" component={Home} exact />
           <Route path="/historique-aboisso" component={HistoriqueVille} />
           <Route path="/arretes-municipaux" component={ArretesMunicipaux} />
           <Route path="/proces-verbaux" component={ProcesVerbaux} />
@@ -60,10 +62,10 @@ function App() {
           <Route path="/presentation" component={Presentation} />
           <Route path="/jumellage" component={Jumellage} />
           <Route path="/demande-autorisation" component={Autorisation} />
-          <Route component={ErrorPage404} /> */}
-          <Route component={ErrorSecurity} />
+          <Route component={ErrorPage404} />
+         {/*  <Route component={ErrorSecurity} /> */}
         </Switch>
-        {/* <FooterPage /> */}
+        <FooterPage />
       </div>
     </BrowserRouter>
   );
