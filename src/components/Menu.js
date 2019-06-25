@@ -34,7 +34,7 @@ export default class Menu extends React.Component {
         <div className="container">
           <Navbar color="" light expand="md" className="bordermenu">
             <NavbarBrand href="/" className="text-white font-weight-bold">
-              ACCEUIL
+              ACCUEIL
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar >

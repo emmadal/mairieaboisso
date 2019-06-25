@@ -10,8 +10,8 @@ export default function Banniere() {
         <div className="row mybanniere">
           <div className="col-md-3 text-center">
             <ModalImage
-              small={require("../components/img/smallbanniere.jpg")}
-              large={require("../components/img/largebanniere.jpg")}
+              small={require("../components/img/BANNIERE.jpg")}
+              large={require("../components/img/BANNIERE.jpg")}
               alt="Mairie d'Aboisso"
               className="mybanniere"
             />
