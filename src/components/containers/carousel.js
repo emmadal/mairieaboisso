@@ -11,12 +11,13 @@ export const carousel = [
   },
   {
     id: 3,
-    img: require("../img/slide3.webp"),
+    img: require("../img/testslide.webp"),
     caption: "AKWABA ABOISSO"
   },
   {
     id: 4,
     img: require("../img/slide4.webp"),
     caption: "AKWABA ABOISSO"
-  }
+  },
+  
 ];
