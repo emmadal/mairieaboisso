@@ -1,6 +1,7 @@
 import React from "react"
 import { description } from "../containers/Description"
 import "../styles/historiqueville.css"
+import histoire_aboisso_large from "../img/histoire_aboisso_large.webp";
 
 export default function HistoriqueVille() {
   return (
@@ -13,7 +14,7 @@ export default function HistoriqueVille() {
         <div className="row">
           <div className="col-md-12">
             <img
-              src={require("../img/histoire_aboisso_large.jpg")}
+              src={histoire_aboisso_large}
               className="img-fluid rounded"
               alt="Histoire"
             />
@@ -26,5 +27,5 @@ export default function HistoriqueVille() {
         </div>
       </div>
     </div>
-  )
+  );
 }

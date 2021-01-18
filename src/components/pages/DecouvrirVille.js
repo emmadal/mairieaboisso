@@ -2,6 +2,7 @@ import React from "react";
 import { description } from "../containers/Description";
 import "../styles/historiqueville.css";
 import Patrimoine from "../Patrimoine";
+import ville_aboisso_large from "../img/ville_aboisso_large.webp"
 
 export default function DecouvrirVille() {
   return (
@@ -14,7 +15,7 @@ export default function DecouvrirVille() {
         <div className="row">
           <div className="col-md-12">
             <img
-              src={require("../img/ville_aboisso_large.png")}
+              src={ville_aboisso_large}
               className="img-fluid rounded"
               alt="Histoire"
             />

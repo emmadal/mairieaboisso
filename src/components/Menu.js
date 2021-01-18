@@ -5,14 +5,13 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
 import "./styles/menu.css";
-import { Route } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 
 export default class Menu extends React.Component {
   constructor(props) {
@@ -33,11 +32,13 @@ export default class Menu extends React.Component {
       <Route>
         <div className="container">
           <Navbar color="" light expand="md" className="bordermenu">
-            <NavbarBrand href="/" className="text-white font-weight-bold">
-              ACCUEIL
+            <NavbarBrand>
+              <Link to="/" className="text-white font-weight-bold">
+                ACCUEIL
+              </Link>
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar >
+            <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle
@@ -49,36 +50,36 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/historique-aboisso"
+                      <Link
+                        to="/historique-aboisso"
                         className="text-success font-weight-bold"
                       >
                         Historique de la ville
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/decouvrir-aboisso"
+                      <Link
+                        to="/decouvrir-aboisso"
                         className="text-success font-weight-bold"
                       >
                         Découvrir la ville
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
-                    <DropdownItem className="text-success">
-                      <NavLink
-                        href="/projets"
+                    {/* <DropdownItem className="text-success">
+                      <Link
+                        to="/projets"
                         className="text-success font-weight-bold"
                       >
                         Les grands projets
-                      </NavLink>
-                    </DropdownItem>
+                      </Link>
+                    </DropdownItem> */}
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/adresses-utiles"
+                      <Link
+                        to="/adresses-utiles"
                         className="text-success font-weight-bold"
                       >
                         Les adresses utiles
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -93,52 +94,52 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/maire"
+                      <Link
+                        to="/maire"
                         className="text-success font-weight-bold"
                       >
                         Le Maire
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/municipalite"
+                      <Link
+                        to="/municipalite"
                         className="text-success font-weight-bold"
                       >
                         La Municipalité
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/conseil-municipal"
+                      <Link
+                        to="/conseil-municipal"
                         className="text-success font-weight-bold"
                       >
                         Le Conseil Municipal
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/commissions"
+                      <Link
+                        to="/commissions"
                         className="text-success font-weight-bold"
                       >
                         Les Commissions
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/services-municipaux"
+                      <Link
+                        to="/services-municipaux"
                         className="text-success font-weight-bold"
                       >
                         Les Services Municipaux
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/police-municipale"
+                      <Link
+                        to="/police-municipale"
                         className="text-success font-weight-bold"
                       >
                         La Police Municipale
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -153,28 +154,28 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/etat-civil"
+                      <Link
+                        to="/etat-civil"
                         className="text-success font-weight-bold"
                       >
                         Etat Civil
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/services-techniques"
+                      <Link
+                        to="/services-techniques"
                         className="text-success font-weight-bold"
                       >
                         Services techniques
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/socio-culturels"
+                      <Link
+                        to="/socio-culturels"
                         className="text-success font-weight-bold"
                       >
                         Services socio culturels
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -189,20 +190,20 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/realises"
+                      <Link
+                        to="/realises"
                         className="text-success font-weight-bold"
                       >
                         Réalisés
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/encours"
+                      <Link
+                        to="/encours"
                         className="text-success font-weight-bold"
                       >
                         En cours
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -217,20 +218,20 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/partenariat"
+                      <Link
+                        to="/partenariat"
                         className="text-success font-weight-bold"
                       >
                         Partenariat
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/jumellage"
+                      <Link
+                        to="/jumellage"
                         className="text-success font-weight-bold"
                       >
                         Jumelage
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -245,38 +246,37 @@ export default class Menu extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/audiences"
+                      <Link
+                        to="/audiences"
                         className="text-success font-weight-bold"
                       >
                         Compte rendu des audiences
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/arretes-municipaux"
+                      <Link
+                        to="/arretes-municipaux"
                         className="text-success font-weight-bold"
                       >
                         Arretes Municipaux
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                     <DropdownItem className="text-success">
-                      <NavLink
-                        href="/proces-verbaux"
+                      <Link
+                        to="/proces-verbaux"
                         className="text-success font-weight-bold"
                       >
                         Proces-verbaux
-                      </NavLink>
+                      </Link>
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
 
-                <NavLink
-                  href="/contact"
-                  className="white-text font-weight-bold"
-                >
-                  CONTACT
-                </NavLink>
+                <UncontrolledDropdown nav inNavbar>
+                  <Link to="/contact" className="white-text font-weight-bold">
+                    CONTACT
+                  </Link>
+                </UncontrolledDropdown>
               </Nav>
             </Collapse>
           </Navbar>

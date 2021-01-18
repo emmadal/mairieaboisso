@@ -19,6 +19,7 @@ export default function ServicesMuncipaux() {
   const [activetab, useActiveTab] = useState("");
 
   function toggle(tab) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     if (activetab !== tab) useActiveTab(tab);
   }
 

@@ -3,7 +3,7 @@ import Home from "./components/pages/Home";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HistoriqueVille from "./components/pages/HistoriqueVille";
 import DecouvrirVille from "./components/pages/DecouvrirVille";
-import Projets from "./components/pages/Projets";
+// import Projets from "./components/pages/Projets";
 /* import ErrorSecurity from "./components/pages/ErrorSecurity"; */
 import Jumellage from "./components/pages/Jumellage";
 import Maire from "./components/pages/Maire";
@@ -56,7 +56,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/maire" component={Maire} />
           <Route path="/decouvrir-aboisso" component={DecouvrirVille} />
-          <Route path="/projets" component={Projets} />
+          {/* <Route path="/projets" component={Projets} /> */}
           <Route path="/a-la-une" component={InfosPage} />
           <Route path="/adresses-utiles" component={AdressesUtiles} />
           <Route path="/presentation" component={Presentation} />

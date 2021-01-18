@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "mdbreact"
 import { maire } from '../containers/maire'
+import ngouan from "../img/ngouan.jpg";
 
 export default function Maire() {
   return (
@@ -24,12 +25,18 @@ export default function Maire() {
         <Row>
           <Col sm="12">
             <details>
-              <summary className="h5-responsive mytitle mt-4">Biographie du Maire</summary>
-              <img src={require('../img/ngouan.jpg')} className="rounded mt-5 img-fluid" alt="maire"/>
+              <summary className="h5-responsive mytitle mt-4">
+                Biographie du Maire
+              </summary>
+              <img
+                src={ngouan}
+                className="rounded mt-5 img-fluid"
+                alt="maire"
+              />
             </details>
           </Col>
         </Row>
       </Container>
     </div>
-  )
+  );
 }

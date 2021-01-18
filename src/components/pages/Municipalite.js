@@ -33,7 +33,7 @@ export default function Municipalite() {
           <h5 className="h5-responsive mt-3 text-center mytitle">
             Les membres de la Municipalité
           </h5>
-          <Col sm="12">
+          {/* <Col sm="12">
             <div
               style={{
                 display: "flex",
@@ -80,7 +80,7 @@ export default function Municipalite() {
                 </MDBCard>
               ))}
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

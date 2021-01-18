@@ -2,6 +2,9 @@ import React from "react";
 import "./styles/commune.css";
 import { View } from "mdbreact";
 import { Link } from "react-router-dom";
+import histoire_aboisso from "../components/img/histoire_aboisso.jpg";
+import patrimoine from "../components/img/patrimoine.png"
+import marche from "../components/img/marche.png";
 
 export default function Commune() {
   return (
@@ -15,7 +18,7 @@ export default function Commune() {
           <div className="col-md text-center">
             <View zoom>
               <img
-                src={require("../components/img/histoire_aboisso.jpg")}
+                src={histoire_aboisso}
                 alt="histoire"
                 className="img-thumbnail img-responsive"
               />
@@ -29,7 +32,7 @@ export default function Commune() {
           <div className="col-md text-center">
             <View zoom>
               <img
-                src={require("../components/img/patrimoine.png")}
+                src={patrimoine}
                 alt="patrimoine"
                 className="img-thumbnail img-responsive"
               />
@@ -43,7 +46,7 @@ export default function Commune() {
           <div className="col-md text-center">
             <View zoom>
               <img
-                src={require("../components/img/marche.png")}
+                src={marche}
                 alt="marche"
                 className="img-thumbnail img-responsive"
               />

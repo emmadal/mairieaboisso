@@ -13,7 +13,7 @@ class FooterPage extends React.Component {
                 MAIRIE D'ABOISSO
               </h4>
               <p className="font-weight-bold">
-                Le vrai changement avec Jeremie Alfred N'Gouan
+                Aboisso une cité en marche.
               </p>
             </Col>
             <Col md="4 my-3">
@@ -29,7 +29,7 @@ class FooterPage extends React.Component {
                 <li className="list-unstyled">
                   <span className="d-flex flex-row">
                     <i className="fa fa-envelope-o mx-2 fa-2x" />
-                    <p className="descriptn">aboissomairie@yahoo.fr</p>
+                    <p className="descriptn">contact@mairieaboisso.com</p>
                   </span>
                 </li>
               </ul>
@@ -81,7 +81,7 @@ class FooterPage extends React.Component {
           <Container fluid>
             &copy; {new Date().getFullYear()} Copyright :{" "}
             <a
-              href="https://mairieaboisso.herokuapp.com/"
+              href="https://mairieaboisso.com/"
               className="black-text font-weight-bold"
             >
               {" "}
