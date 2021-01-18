@@ -1,14 +1,17 @@
 import React from "react";
 import { Col, Container, Row, Footer } from "mdbreact";
+import facebook from "./img/facebook.svg"
+import twitter from "./img/twitter.svg"
+import youtube from "./img/youtube.svg";
 import "./styles/footer.css";
 
 class FooterPage extends React.Component {
   render() {
     return (
-      <Footer color="" className="font-small pt-4 mt-4">
+      <Footer color="" className="font-small">
         <Container fluid className="text-center text-md-left" id="myfooter">
           <Row className="d-flex align-items-center">
-            <Col md="4 my-3">
+            <Col md="4">
               <h4 className="font-weight-bold h4-responsive">
                 MAIRIE D'ABOISSO
               </h4>
@@ -44,7 +47,7 @@ class FooterPage extends React.Component {
                 >
                   <img
                     alt="facebook"
-                    src={require("./img/facebook.svg")}
+                    src={facebook}
                     className="img-fluid social"
                   />
                 </a>
@@ -55,7 +58,7 @@ class FooterPage extends React.Component {
                 >
                   <img
                     alt="facebook"
-                    src={require("./img/twitter.svg")}
+                    src={twitter}
                     className="img-fluid social"
                   />
                 </a>
@@ -66,7 +69,7 @@ class FooterPage extends React.Component {
                 >
                   <img
                     alt="facebook"
-                    src={require("./img/youtube.svg")}
+                    src={youtube}
                     className="img-fluid social"
                   />
                 </a>

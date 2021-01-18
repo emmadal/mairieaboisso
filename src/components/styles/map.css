@@ -10,3 +10,44 @@ input[type="text"], input[type="email"]{
   justify-content: center;
   align-items: center;
 }
+
+.title{
+  margin: 0;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  color: green;
+  margin-bottom: 17px;
+}
+._maps{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ova-contact-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon {
+  margin: 0px 15px 4px 0px;
+}
+.icon i:before {
+  font-size: 15px;
+  color: #B0B8C6;
+}
+.address span {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #a1aabf;
+}
+address a {
+  color: green;
+}
+._iframe{
+  min-width: 100%;
+}
+._description{
+  font-size: 18px;
+}

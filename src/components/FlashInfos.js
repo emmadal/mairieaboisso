@@ -17,7 +17,7 @@ export default function FlashInfos() {
             </div>
           </Col>
           <Col sm="10">
-            <TextScroll mode="horizontal" text={text} speed={6000} />
+            <TextScroll mode="horizontal" text={text} speed={6000}/>
           </Col>
         </Row>
       </Container>

@@ -1,4 +1,14 @@
-.mytitle{
+
+.layer {
+  background-color: #F6F6F6;
+  padding: 50px;
+}
+
+.layer .title{
+  margin: 0;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
   color: green;
-  font-weight: bold;
+  margin-bottom: 17px;
 }

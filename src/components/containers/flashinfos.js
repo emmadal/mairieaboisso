@@ -1,5 +1,5 @@
 export const text = [
-  `1) The knives seemed to move of their own accord, gliding with a hand on his chest. The alarm still oscillated, louder here.`,
-  `2) them--and it belongs to a mouse: she had never forgotten that, if you hold it too long; and that if you could only see her.`,
-  `3) However, she soon found out that the best thing to get very tired of sitting by her sister on the bank`
+  `1) CORONAVIRUS: LA COTE D’IVOIRE ENREGISTRE 213 NOUVEAUX CAS, PORTANT A 25241 LE NOMBRE TOTAL DE CAS CONFIRMES, DONT 23331 GUERIS ET 141 DECES A LA DATE DU LUNDI 17 JANVIER 2021.`,
+  `2) HUILE DE TABLE RAFFINEE: LE MINISTRE DU COMMERCE ET DE L’INDUSTRIE ANNONCE LA SUSPENSION DE LA HAUSSE DU PRIX. LA DÉCISION PREND EFFET IMMÉDIATEMENT.`,
+  `3) However, she soon found out that the best thing to get very tired of sitting by her sister on the bank`,
 ];

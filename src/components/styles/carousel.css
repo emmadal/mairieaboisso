@@ -4,3 +4,7 @@
 .subtitle{
     font-size: 40px;
 }
+
+.carouselImg{
+    min-width: 100%;
+}

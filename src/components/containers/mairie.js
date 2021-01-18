@@ -105,7 +105,7 @@ export const directionservices = [
 export const contact = [
   {
     id: 1,
-    name: "Email : aboissomairie@yahoo.fr"
+    name: "Email : contact@mairieaboisso.com"
   },
   {
     id: 2,

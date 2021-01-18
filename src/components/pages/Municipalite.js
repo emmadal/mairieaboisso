@@ -1,15 +1,9 @@
 import React from "react";
-import { municipalite, membres } from "../containers/municipalite";
+import { municipalite } from "../containers/municipalite";
 import {
   Container,
   Row,
-  Col,
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCardFooter
+  Col
 } from "mdbreact";
 
 export default function Municipalite() {

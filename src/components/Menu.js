@@ -271,12 +271,9 @@ export default class Menu extends React.Component {
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
-
-                <UncontrolledDropdown nav inNavbar>
-                  <Link to="/contact" className="white-text font-weight-bold">
+                  <Link to="/contact" className="white-text font-weight-bold m-2">
                     CONTACT
                   </Link>
-                </UncontrolledDropdown>
               </Nav>
             </Collapse>
           </Navbar>

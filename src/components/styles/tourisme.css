@@ -1,0 +1,15 @@
+.title {
+    margin: 0;
+    font-size: 50px;
+    line-height: 44px;
+    font-weight: 600;
+    color: green;
+    margin-bottom: 17px;
+}
+._container{
+    background-image: url('../img/home1-bg2.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-color: #f6f3ee;
+    padding: 50px;
+}

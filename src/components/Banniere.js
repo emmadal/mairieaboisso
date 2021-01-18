@@ -2,7 +2,8 @@ import React from "react";
 import "./styles/banniere.css";
 import Menu from "./Menu";
 import logo from "../components/img/logo.jpg";
-import {NavLink} from 'reactstrap'
+import corona from "../components/img/corona.jpg";
+import {Link} from 'react-router-dom'
 // import ModalImage from "react-modal-image";
 
 export default function Banniere() {
@@ -11,13 +12,13 @@ export default function Banniere() {
       <div className="container">
         <div className="row mybanniere">
           <div className="col-md-2 text-center">
-            <NavLink href="/">
+            <Link to="/">
               <img
                 src={logo}
                 alt="banniere"
                 className="logo img-fluid text-center"
               />
-            </NavLink>
+            </Link>
             {/* <ModalImage
               small={require("../components/img/BANNIERE.jpg")}
               large={require("../components/img/BANNIERE.jpg")}
@@ -25,7 +26,7 @@ export default function Banniere() {
               className="mybanniere"
             /> */}
           </div>
-          <div className="col-md-10 text-center">
+          <div className="col-md-6text-center">
             <h3 className="h3-responsive textbaniere">
               BIENVENUE SUR LE SITE OFFICIEL DE LA COMMUNE D'ABOISSO
             </h3>

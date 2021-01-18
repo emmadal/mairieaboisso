@@ -5,3 +5,37 @@
 .textinfo{
   font-size: 15px;
 }
+.effects-layer {
+  background-image: url('../img/bg_blog.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+._colcard{
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: flex-start; */
+}
+._card {
+  width: 19rem;
+  margin-bottom: 90px;
+  margin-top: 80px;
+  margin: 3px;  
+}
+.ovaheading{
+  margin: 0;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 600;
+  color: green;
+  margin-top: 120px;
+  /* margin-bottom: 17px; */
+}
+.sub-title {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.cardImage{
+  position: "relative"
+}
